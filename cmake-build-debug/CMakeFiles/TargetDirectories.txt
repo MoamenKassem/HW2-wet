@@ -1,0 +1,3 @@
+C:/Users/LENOVO/OneDrive - Technion/2023 spring/Data Structures/HW2-wet/cmake-build-debug/CMakeFiles/HW2_wet.dir
+C:/Users/LENOVO/OneDrive - Technion/2023 spring/Data Structures/HW2-wet/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/LENOVO/OneDrive - Technion/2023 spring/Data Structures/HW2-wet/cmake-build-debug/CMakeFiles/rebuild_cache.dir
