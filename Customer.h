@@ -23,6 +23,8 @@ class Record {
     int r_id; // a number between 0 - (numOfRecords-1)
     int numOfRecords;
     int purchaseCount;
+public:
+    Record():r_id(0),numOfRecords(0),purchaseCount(0){};
 };
 
 #endif //HW2_WET_ Customer_H

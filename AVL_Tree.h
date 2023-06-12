@@ -23,6 +23,17 @@ public:
 };
 
 template<class T>
+void deleteTree(T* ptr){
+    if(ptr == nullptr){
+        return;
+    }
+    deleteTree(ptr->leftSon);
+    deleteTree(ptr->rightSon);
+    delete ptr;
+    ptr = nullptr;
+}
+
+template<class T>
 StatusType AVL_Tree<T>::searchAndAdd(T* toInsert)
 {
     // Search
@@ -44,7 +55,7 @@ StatusType AVL_Tree<T>::searchAndAdd(T* toInsert)
             continue;
         }
         if (currentNodePtr->key == toInsert->key)
-            return StatusType::FAILURE;
+            return StatusType::ALREADY_EXISTS;
         currentNodePtr = currentNodePtr->leftSon; //Go to right son
         if (currentNodePtr == nullptr)
         {

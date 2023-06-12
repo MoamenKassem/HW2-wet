@@ -17,6 +17,7 @@ class hashTable {
     int max_size;
     int current_size;
 public:
+    hashTable();
     // array functions
     void check_full();
     void check_quarter_full();
@@ -26,6 +27,8 @@ public:
     void Insert(Customer customer);
     void Delete(int key);
     Customer* Search(int value);
+    void InsertTree(AVL_Tree<Node<Customer>> tree);
+    void InsertNode(Node<Customer>* node);
 };
 
 /*
