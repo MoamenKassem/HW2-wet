@@ -14,9 +14,9 @@ public:
     void changeRoot(T* ptr){root = ptr;}
     int getNumOfNodes() const{return this->numOfNodes;};
     void setNumOfNodes(int newNum) {this->numOfNodes = newNum;};
-    T* search(T content);
+    T* search(int key);
     StatusType_t searchAndAdd(T* toInsert);
-    StatusType_t searchAndDelete(int content);
+    StatusType_t searchAndDelete(int key);
     T* getMax();
     void leftRoll(T* node);
     void rightRoll(T* node);
@@ -32,7 +32,7 @@ StatusType AVL_Tree<T>::searchAndAdd(T* toInsert)
     while(currentNodePtr != nullptr)
     {
         currentFatherNodePtr = currentNodePtr;
-        if (currentNodePtr->content < toInsert->content)
+        if (currentNodePtr->key < toInsert->key)
         {
             currentNodePtr = currentNodePtr->rightSon; //Go to right son
             if (currentNodePtr == nullptr)
@@ -43,7 +43,7 @@ StatusType AVL_Tree<T>::searchAndAdd(T* toInsert)
             }
             continue;
         }
-        if (currentNodePtr->content == toInsert->content)
+        if (currentNodePtr->key == toInsert->key)
             return StatusType::FAILURE;
         currentNodePtr = currentNodePtr->leftSon; //Go to right son
         if (currentNodePtr == nullptr)
@@ -104,7 +104,7 @@ StatusType AVL_Tree<T>::searchAndAdd(T* toInsert)
 }
 
 template<class T>
-StatusType AVL_Tree<T>::searchAndDelete(int content)
+StatusType AVL_Tree<T>::searchAndDelete(int key)
 {
 // Search
     T* currentNodePtr = this->root;
@@ -115,7 +115,7 @@ StatusType AVL_Tree<T>::searchAndDelete(int content)
     T* currentFatherNodePtr;
     while(true)
     {
-        if (currentNodePtr->content == content)
+        if (currentNodePtr->key == key)
         {
             //found the node to delete
             //leaf
@@ -225,7 +225,7 @@ StatusType AVL_Tree<T>::searchAndDelete(int content)
             delete currentNodePtr;
             break;
         }
-        if (currentNodePtr->content < content)
+        if (currentNodePtr->key < key)
         {
             currentNodePtr = currentNodePtr->rightSon; //Go to right son
             if (currentNodePtr == nullptr)
@@ -369,23 +369,24 @@ void AVL_Tree<T>::rightRoll(T* node)
     node->updateHeight();
     newHead->updateHeight();
 }
+
 template<class T>
-T* AVL_Tree<T>::search(int content){
+T* AVL_Tree<T>::search(int key){
     T* ptr = this->root;
     while (ptr){
-        if (content == ptr->content){
+        if (key == ptr->key){
             return ptr;
         }
-        if (content < ptr->content){
+        if (key < ptr->key){
             ptr = ptr->leftSon;
             continue;
         }
-        if (content > ptr->content){
+        if (key > ptr->key){
             ptr = ptr->rightSon;
             continue;
         }
     }
-    return new T(-1);
+    return new T(0, nullptr, nullptr);
 }
 template<class T>
 T* AVL_Tree<T>::getMax(){

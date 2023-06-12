@@ -5,7 +5,7 @@
 template<class T>
 class Node {
 public:
-    T content;
+    T* content;
     Node* leftSon;
     Node* rightSon;
     Node* father;
@@ -21,7 +21,7 @@ public:
     Node():content(0),leftSon(nullptr),rightSon(nullptr),
            father(nullptr),height(0),key(0){};
 
-    Node(int key, T content,Node* father):content(content),leftSon(nullptr),rightSon(nullptr),
+    Node(int key, T* content,Node* father):content(content),leftSon(nullptr),rightSon(nullptr),
     father(father),height(0),key(key){};
 
     explicit Node(int key):content(0),leftSon(nullptr),rightSon(nullptr),

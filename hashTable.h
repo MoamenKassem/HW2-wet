@@ -8,15 +8,24 @@
 #include "Node.h"
 #include "Customer.h"
 #include "utilesWet2.h"
+
 //made by chain hashing
+
 class hashTable {
-AVL_Tree<Node>* array;
-int size; // size of hashtable
+
+    AVL_Tree<Node<Customer>>* array;
+    int max_size;
+    int current_size;
 public:
+    // array functions
+    void check_full();
+    void check_quarter_full();
+    AVL_Tree<Node<Customer>> operator[](int index){return array[index];}; // get
+    // hash functions
     int hashFunction(int value); // mod
-    void Insert(const Customer& customer);
+    void Insert(Customer customer);
     void Delete(int key);
-    void Search(int value);
+    Customer* Search(int value);
 };
 
 /*
