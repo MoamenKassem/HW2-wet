@@ -36,6 +36,12 @@ void ArrayO1<T>::store(int i,T value)
     array[i]= value;
 }
 
-void operator=(const ArrayO1<T>& other){
-
+template <class T>
+void ArrayO1<T>::operator=(T other){
+    other.array = this->array;
+    other.shortcut = this->shortcut;
+    other.initializedIndex = this->initializedIndex;
+    other.top = this->top;
+    other.initial_value = this->initial_value;
+    other.size = this->size;
 }

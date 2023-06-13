@@ -2,11 +2,17 @@
 #define RECORDS_COMPANY_H
 
 #include "utilesWet2.h"
-
+#include "AVL_Tree.h"
+#include "hashTable.h"
+#include "ArrayO1.h"
 
 
 class RecordsCompany {
   private:
+    AVL_Tree<Customer> customers;
+    hashTable customersHash;
+
+
     // todo
   public:
     RecordsCompany();

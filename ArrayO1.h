@@ -15,10 +15,11 @@ class ArrayO1 {
     T* initial_value;
 public:
     ArrayO1(int size, T initial_value); // init
+    ~ArrayO1()=default;
     bool is_assigned(int index);
     T operator[](int index); //get(V,i):
     void store(int i,T value); //store(V,I,e):
-    void operator=(const ArrayO1<T>& other);
+    void operator=(T other);
 };
 
 

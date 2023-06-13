@@ -13,7 +13,11 @@ int reversedTree::find(int index)
     {
         index = parentIndex[index];
     }
-    parentIndex.store(temp,index);
+    while(parentIndex[temp] != -1)
+    {
+        temp = parentIndex[temp];
+        parentIndex.store(temp,index);
+    }
     return index;
 }
 

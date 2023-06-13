@@ -7,7 +7,7 @@ class AVL_Tree {
     int numOfNodes;
     T* root;
 public:
-    AVL_Tree():numOfNodes(0),root(nullptr){};
+    AVL_Tree<T>():numOfNodes(0),root(nullptr){};
     ~AVL_Tree()=default;
     AVL_Tree(AVL_Tree& avlTree)=default;
     T* getRoot(){return this->root;};

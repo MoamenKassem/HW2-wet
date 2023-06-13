@@ -4,19 +4,15 @@
 
 #include "hashTable.h"
 
-/*DynamicArray::DynamicArray():max_size(100),current_size(0)
-{
-    arr = new int[max_size];
-    for (int i = 0; i < max_size; i++)
-        arr[i] = 0;
-}*/
-
 hashTable::hashTable():max_size(10),current_size(0)
 {
-
+    AVL_Tree<Node<Customer>> tree;
+    ArrayO1<AVL_Tree<Node<Customer>>>* arr = new ArrayO1<AVL_Tree<Node<Customer>>>(10,tree);
+    array = *arr;
 }
 
-void hashTable::check_full(){
+void hashTable::check_full()
+{
     if (current_size < max_size)
         return;
     AVL_Tree<Node<Customer>>* expandedArr = new AVL_Tree<Node<Customer>>[max_size*2];

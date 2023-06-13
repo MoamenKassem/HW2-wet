@@ -8,12 +8,11 @@
 #include "Node.h"
 #include "Customer.h"
 #include "utilesWet2.h"
-
+#include "ArrayO1.h"
 //made by chain hashing
 
 class hashTable {
-
-    AVL_Tree<Node<Customer>>* array;
+    ArrayO1<AVL_Tree<Node<Customer>>> array;
     int max_size;
     int current_size;
 public:
