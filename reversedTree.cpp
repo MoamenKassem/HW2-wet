@@ -4,7 +4,12 @@
 
 #include "reversedTree.h"
 
-reversedTree::reversedTree(int size): TreeSize(size,-1), parentIndex(size,-1), data(size,Record()){}
+reversedTree::reversedTree(int size):size(size), TreeSize(size,-1), parentIndex(size,-1)
+{
+    Record* record = new Record();
+    ArrayO1<Record*>* data = new ArrayO1<Record*>(size,record);
+    this->data = *data;
+}
 
 int reversedTree::find(int index)
 {
@@ -21,7 +26,7 @@ int reversedTree::find(int index)
     return index;
 }
 
-void reversedTree::makeset(int index,Record value)
+void reversedTree::makeset(int index,Record* value)
 {
     TreeSize.store(index,1);
     data.store(index,value);

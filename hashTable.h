@@ -12,7 +12,7 @@
 //made by chain hashing
 
 class hashTable {
-    ArrayO1<AVL_Tree<Node<Customer>>> array;
+    AVL_Tree<Node<Customer*>>* array;
     int max_size;
     int current_size;
 public:
@@ -20,14 +20,15 @@ public:
     // array functions
     void check_full();
     void check_quarter_full();
-    AVL_Tree<Node<Customer>> operator[](int index){return array[index];}; // get
+    AVL_Tree<Node<Customer*>> operator[](int index){return array[index];}; // get
     // hash functions
     int hashFunction(int value); // mod
-    void Insert(Customer customer);
+    int getSize() const{return max_size;};
+    StatusType_t Insert(Customer* customer);
     void Delete(int key);
     Customer* Search(int value);
-    void InsertTree(AVL_Tree<Node<Customer>> tree);
-    void InsertNode(Node<Customer>* node);
+    void InsertTree(AVL_Tree<Node<Customer*>> tree);
+    void InsertNode(Node<Customer*>* node);
 };
 
 /*

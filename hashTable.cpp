@@ -6,17 +6,16 @@
 
 hashTable::hashTable():max_size(10),current_size(0)
 {
-    AVL_Tree<Node<Customer>> tree;
-    ArrayO1<AVL_Tree<Node<Customer>>>* arr = new ArrayO1<AVL_Tree<Node<Customer>>>(10,tree);
-    array = *arr;
+    AVL_Tree<Node<Customer*>>* arr = new AVL_Tree<Node<Customer*>>();
+    array = arr;
 }
 
 void hashTable::check_full()
 {
     if (current_size < max_size)
         return;
-    AVL_Tree<Node<Customer>>* expandedArr = new AVL_Tree<Node<Customer>>[max_size*2];
-    AVL_Tree<Node<Customer>>* tempArr = new AVL_Tree<Node<Customer>>[max_size];
+    AVL_Tree<Node<Customer*>>* expandedArr = new AVL_Tree<Node<Customer*>>[max_size*2];
+    AVL_Tree<Node<Customer*>>* tempArr = new AVL_Tree<Node<Customer*>>[max_size];
     for(int i=0;i<max_size;i++)
     {
         tempArr[i] = array[i];
@@ -43,8 +42,8 @@ void hashTable::check_quarter_full() {
     if (current_size >= max_size/4)
         return;
 
-    AVL_Tree<Node<Customer>>* shortenedArr = new AVL_Tree<Node<Customer>>[max_size/2];
-    AVL_Tree<Node<Customer>>* tempArr = new AVL_Tree<Node<Customer>>[max_size];
+    AVL_Tree<Node<Customer*>>* shortenedArr = new AVL_Tree<Node<Customer*>>[max_size/2];
+    AVL_Tree<Node<Customer*>>* tempArr = new AVL_Tree<Node<Customer*>>[max_size];
     for(int i=0;i<max_size;i++)
     {
         tempArr[i] = array[i];
@@ -74,26 +73,28 @@ int hashTable::hashFunction(int value)
     return (value % max_size);
 }
 
-
-
-
-void hashTable::Insert(Customer customer)
+StatusType_t hashTable::Insert(Customer* customer)
 {
-    Node<Customer>* node = new Node<Customer>(customer.getID(),&customer, nullptr);
-    if (array[hashFunction(customer.getID())].getRoot() == nullptr)
+    Node<Customer*>* node = new Node<Customer*>(customer->getID(),&customer, nullptr);
+    if (array[hashFunction(customer->getID())].getRoot() == nullptr)
         current_size++;
-    StatusType status =array[hashFunction(customer.getID())].searchAndAdd(node);
+    StatusType status =array[hashFunction(customer->getID())].searchAndAdd(node);
     if(status == ALREADY_EXISTS)
+    {
         delete node;
+        return status;
+    }
+
     check_full();
+    return status;
 }
 
-void hashTable::InsertTree(AVL_Tree<Node<Customer>> tree)
+void hashTable::InsertTree(AVL_Tree<Node<Customer*>> tree)
 {
     InsertNode(tree.getRoot());
 }
 
-void hashTable::InsertNode(Node<Customer>* node)
+void hashTable::InsertNode(Node<Customer*>* node)
 {
     if(node == nullptr){
         return;
@@ -113,11 +114,11 @@ void hashTable::Delete(int key) // c_id for the customer
 
 Customer* hashTable::Search(int key)
 {
-    Node<Customer>* node = array[hashFunction(key)].search(key);
+    Node<Customer*>* node = array[hashFunction(key)].search(key);
     if(node->content == nullptr)
     {
         delete node;
         return nullptr;
     }
-    return node->content;
+    return *node->content;
 }

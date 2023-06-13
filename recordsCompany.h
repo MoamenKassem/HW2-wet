@@ -5,13 +5,14 @@
 #include "AVL_Tree.h"
 #include "hashTable.h"
 #include "ArrayO1.h"
+#include "reversedTree.h"
 
 
 class RecordsCompany {
   private:
-    AVL_Tree<Customer> customers;
+    AVL_Tree<Node<Customer*>> Members;
     hashTable customersHash;
-
+    reversedTree recordsTree;
 
     // todo
   public:

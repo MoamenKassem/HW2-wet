@@ -9,15 +9,17 @@
 class reversedTree {
     ArrayO1<int> TreeSize;
     ArrayO1<int> parentIndex;
-    ArrayO1<Record> data;
+    ArrayO1<Record*> data;
+    int size;
 
 public:
     reversedTree(int size);
     ~reversedTree()=default;
-
+    int getSize(){return size;};
     int find(int index);
-    void makeset(int index,Record value);
+    void makeset(int index,Record* value);
     void groupUnion(int group1, int group2);
+    ArrayO1<Record*> getData()const{return data;};
 };
 
 

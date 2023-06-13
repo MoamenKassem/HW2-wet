@@ -382,6 +382,20 @@ void AVL_Tree<T>::rightRoll(T* node)
 }
 
 template<class T>
+T* AVL_Tree<T>::getMax(){
+    T* ptr = this->root;
+    T* head = this->root;
+    while (ptr){
+        ptr = ptr->rightSon;
+        if(!ptr){
+            return head;
+        }
+        head = head->rightSon;
+    }
+    return nullptr;
+}
+
+template<class T>
 T* AVL_Tree<T>::search(int key){
     T* ptr = this->root;
     while (ptr){
@@ -399,19 +413,40 @@ T* AVL_Tree<T>::search(int key){
     }
     return new T(0, nullptr, nullptr);
 }
+
 template<class T>
-T* AVL_Tree<T>::getMax(){
+void AVL_Tree<T>::changeExtra(int endNode,int amount){
     T* ptr = this->root;
-    T* head = this->root;
+    bool firstRight= true;
+    bool firstLeft= true;
     while (ptr){
-        ptr = ptr->rightSon;
-        if(!ptr){
-            return head;
+        if (endNode == ptr->key){
+            if(ptr->rightSon != nullptr)
+                ptr->rightSon->setExtra(-amount);
+            if(!firstLeft)
+                ptr->setExtra(-amount);
+            return;
         }
-        head = head->rightSon;
+        if (endNode < ptr->key){
+            if(firstLeft)
+                ptr->setExtra(-amount);
+            ptr = ptr->leftSon;
+            firstLeft = false;
+            firstRight = true;
+            continue;
+        }
+        if (endNode > ptr->key){
+            if(firstRight)
+                ptr->setExtra(amount);
+            ptr = ptr->rightSon;
+            firstRight = false;
+            firstLeft = true;
+            continue;
+        }
     }
-    return nullptr;
+    return;
 }
+
 
 // avl_tree end
 #endif //DATASTURCURES_HW1_AVL_TREE_H

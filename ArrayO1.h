@@ -14,6 +14,7 @@ class ArrayO1 {
     int top;
     T* initial_value;
 public:
+    ArrayO1()=default;
     ArrayO1(int size, T initial_value); // init
     ~ArrayO1()=default;
     bool is_assigned(int index);
