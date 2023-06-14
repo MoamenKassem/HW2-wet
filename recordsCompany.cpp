@@ -94,12 +94,20 @@ StatusType RecordsCompany::addPrize(int c_id1, int c_id2, double  amount)
 {
     if(c_id1 <0 || c_id2<0||amount <= 0)
         return StatusType::INVALID_INPUT;
-    Members.
+    Members.changeExtra(c_id2,amount);
+    Members.changeExtra(c_id1,-amount);
+    return StatusType::SUCCESS;
 }
 
 Output_t<double> RecordsCompany::getExpenses(int c_id)
 {
-
+    if(c_id<0)
+        return StatusType::INVALID_INPUT;
+    Node<Customer*>* member = Members.search(c_id);
+    if(member->content == nullptr)
+        return StatusType::DOESNT_EXISTS;
+    double discount = Members.calcExtra(c_id);
+    return member->content->getAccumulatedAmount()-discount;
 }
 
 StatusType RecordsCompany::putOnTop(int r_id1, int r_id2)

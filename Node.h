@@ -11,14 +11,15 @@ public:
     Node* father;
     int height;
     int key;
-    int extraAmount; // the amount of the prize given to Vip customer
+    double extraAmount; // the amount of the prize given to Vip customer
 
     void addLeftSon(Node<T>* son);
     void addRightSon(Node<T>* son);
     void swapNodes(Node<T>* node1);
     int getBalanceFactor() const;
     int updateHeight();
-    void setExtra(int a){ this->extraAmount+=a;};
+    double getExtra(){return this->extraAmount;};
+    void setExtra(double a){ this->extraAmount+=a;};
 
     Node():content(0),leftSon(nullptr),rightSon(nullptr),
            father(nullptr),height(0),key(0){};

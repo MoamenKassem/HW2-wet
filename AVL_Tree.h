@@ -20,6 +20,8 @@ public:
     T* getMax();
     void leftRoll(T* node);
     void rightRoll(T* node);
+    void changeExtra(int endNode,double amount);
+    double calcExtra(int key);
 };
 
 template<class T>
@@ -346,6 +348,18 @@ void AVL_Tree<T>::leftRoll(T* node)
     {
         newHead->father->leftSon = newHead;
     }
+
+    // changing the extra values
+
+    double b = newHead->getExtra;
+    double temp = tempNode->getExtra;
+    double a = node->getExtra;
+
+    newHead->setExtra(a);
+    node->setExtra(-b);
+    tempNode->setExtra(b);
+
+
     node->updateHeight();
     newHead->updateHeight();
 }
@@ -377,6 +391,18 @@ void AVL_Tree<T>::rightRoll(T* node)
     {
         newHead->father->leftSon = newHead;
     }
+
+    // changing the extra values
+
+    double a = newHead->getExtra;
+    double temp = tempNode->getExtra;
+    double b = node->getExtra;
+
+    newHead->setExtra(b);
+    node->setExtra(-a);
+    tempNode->setExtra(a);
+
+
     node->updateHeight();
     newHead->updateHeight();
 }
@@ -414,11 +440,34 @@ T* AVL_Tree<T>::search(int key){
     return new T(0, nullptr, nullptr);
 }
 
+
 template<class T>
-void AVL_Tree<T>::changeExtra(int endNode,int amount){
+double AVL_Tree<T>::calcExtra(int key){
+    double extra=0;
+    T* ptr = this->root;
+    while (ptr){
+        extra+=ptr->getExtra();
+        if (key == ptr->key){
+            return extra;
+        }
+        if (key < ptr->key){
+            ptr = ptr->leftSon;
+            continue;
+        }
+        if (key > ptr->key){
+            ptr = ptr->rightSon;
+            continue;
+        }
+    }
+    return -1;
+}
+
+
+template<class T>
+void AVL_Tree<T>::changeExtra(int endNode,double amount){
     T* ptr = this->root;
     bool firstRight= true;
-    bool firstLeft= true;
+    bool firstLeft= false;
     while (ptr){
         if (endNode == ptr->key){
             if(ptr->rightSon != nullptr)
@@ -444,7 +493,7 @@ void AVL_Tree<T>::changeExtra(int endNode,int amount){
             continue;
         }
     }
-    return;
+    return;//error
 }
 
 
