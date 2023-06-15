@@ -1,7 +1,12 @@
 #ifndef DATASTURCURES_HW1_AVL_TREE_H
 #define DATASTURCURES_HW1_AVL_TREE_H
 #include "utilesWet2.h"
+#include "Node.h"
+#include "Customer.h"
 #include <cmath>
+#include <queue>
+#include <iostream>
+
 template<class T>
 class AVL_Tree {
     int numOfNodes;
@@ -18,11 +23,26 @@ public:
     StatusType_t searchAndAdd(T* toInsert);
     StatusType_t searchAndDelete(int key);
     T* getMax();
-    void leftRoll(T* node);
-    void rightRoll(T* node);
     void changeExtra(int endNode,double amount);
     double calcExtra(int key);
+    void leftRoll(T* node);
+    void rightRoll(T* node);
+    void printLevelOrder();
+    void preOrderPathReset(Node<Customer *>* node);
 };
+
+template<class T>
+void AVL_Tree<T>::preOrderPathReset(Node<Customer *>* node)
+{
+    if(node == nullptr)
+        return;
+
+    preOrderPathReset(node->leftSon);
+    preOrderPathReset(node->rightSon);
+
+    node->content->accumulatedAmountInc(-(node->content->getAccumulatedAmount()));
+}
+
 
 template<class T>
 void deleteTree(T* ptr){
@@ -31,7 +51,8 @@ void deleteTree(T* ptr){
     }
     deleteTree(ptr->leftSon);
     deleteTree(ptr->rightSon);
-    delete ptr;
+    ptr->content = nullptr;
+    delete[] ptr;
     ptr = nullptr;
 }
 
@@ -39,7 +60,10 @@ template<class T>
 StatusType AVL_Tree<T>::searchAndAdd(T* toInsert)
 {
     // Search
-
+    toInsert->leftSon = nullptr;
+    toInsert->rightSon = nullptr;
+    toInsert->father = nullptr;
+    toInsert->height = 0;
     T* currentNodePtr = this->root;
     T* currentFatherNodePtr = nullptr;
     while(currentNodePtr != nullptr)
@@ -315,6 +339,7 @@ StatusType AVL_Tree<T>::searchAndDelete(int key)
         oldHeight = currentFatherNodePtr->height;
         currentBalanceFactor = currentFatherNodePtr->getBalanceFactor();
     }
+
     this->numOfNodes--;
     return StatusType::SUCCESS;
 
@@ -349,19 +374,25 @@ void AVL_Tree<T>::leftRoll(T* node)
         newHead->father->leftSon = newHead;
     }
 
+    node->updateHeight();
+    newHead->updateHeight();
+
+
     // changing the extra values
 
-    double b = newHead->getExtra;
-    double temp = tempNode->getExtra;
-    double a = node->getExtra;
+    double b = newHead->getExtra();
+    double a = node->getExtra();
 
     newHead->setExtra(a);
     node->setExtra(-b);
-    tempNode->setExtra(b);
+
+    if (tempNode!= nullptr)
+    {
+        tempNode->setExtra(b);
+    }
 
 
-    node->updateHeight();
-    newHead->updateHeight();
+
 }
 template<class T>
 void AVL_Tree<T>::rightRoll(T* node)
@@ -391,34 +422,25 @@ void AVL_Tree<T>::rightRoll(T* node)
     {
         newHead->father->leftSon = newHead;
     }
+    node->updateHeight();
+    newHead->updateHeight();
+
 
     // changing the extra values
 
-    double a = newHead->getExtra;
-    double temp = tempNode->getExtra;
-    double b = node->getExtra;
+
+    double a = newHead->getExtra();
+    double b = node->getExtra();
 
     newHead->setExtra(b);
     node->setExtra(-a);
-    tempNode->setExtra(a);
-
-
-    node->updateHeight();
-    newHead->updateHeight();
-}
-
-template<class T>
-T* AVL_Tree<T>::getMax(){
-    T* ptr = this->root;
-    T* head = this->root;
-    while (ptr){
-        ptr = ptr->rightSon;
-        if(!ptr){
-            return head;
-        }
-        head = head->rightSon;
+    if (tempNode!= nullptr)
+    {
+        tempNode->setExtra(a);
     }
-    return nullptr;
+
+
+
 }
 
 template<class T>
@@ -439,22 +461,67 @@ T* AVL_Tree<T>::search(int key){
     }
     return new T(0, nullptr, nullptr);
 }
-
+template<class T>
+T* AVL_Tree<T>::getMax(){
+    T* ptr = this->root;
+    T* head = this->root;
+    while (ptr){
+        ptr = ptr->rightSon;
+        if(!ptr){
+            return head;
+        }
+        head = head->rightSon;
+    }
+    return nullptr;
+}
 
 template<class T>
-double AVL_Tree<T>::calcExtra(int key){
-    double extra=0;
-    T* ptr = this->root;
-    while (ptr){
-        extra+=ptr->getExtra();
-        if (key == ptr->key){
+void AVL_Tree<T>::changeExtra(int endNode,double amount) {
+    T *ptr = this->root;
+    bool firstRight = true;
+    bool firstLeft = false;
+    while (ptr) {
+        if (endNode == ptr->key) {
+            if (ptr->rightSon != nullptr)
+                ptr->rightSon->setExtra(-amount);
+            if (!firstLeft)
+                ptr->setExtra(-amount);
+            return;
+        }
+        if (endNode < ptr->key) {
+            if (firstLeft)
+                ptr->setExtra(-amount);
+            ptr = ptr->leftSon;
+            firstLeft = false;
+            firstRight = true;
+            continue;
+        }
+        if (endNode > ptr->key) {
+            if (firstRight)
+                ptr->setExtra(amount);
+            ptr = ptr->rightSon;
+            firstRight = false;
+            firstLeft = true;
+            continue;
+        }
+    }
+    return;//error
+}
+
+template<class T>
+double AVL_Tree<T>::calcExtra(int key) {
+    double extra = 0;
+    T *ptr = this->root;
+    while (ptr) {
+        extra += ptr->getExtra();
+        if (key == ptr->key) {
             return extra;
         }
-        if (key < ptr->key){
+        if (key < ptr->key) {
             ptr = ptr->leftSon;
             continue;
         }
-        if (key > ptr->key){
+        if (key > ptr->key) {
             ptr = ptr->rightSon;
             continue;
         }
@@ -464,36 +531,25 @@ double AVL_Tree<T>::calcExtra(int key){
 
 
 template<class T>
-void AVL_Tree<T>::changeExtra(int endNode,double amount){
-    T* ptr = this->root;
-    bool firstRight= true;
-    bool firstLeft= false;
-    while (ptr){
-        if (endNode == ptr->key){
-            if(ptr->rightSon != nullptr)
-                ptr->rightSon->setExtra(-amount);
-            if(!firstLeft)
-                ptr->setExtra(-amount);
-            return;
+void AVL_Tree<T>::printLevelOrder() {
+    std::queue<T*> q;
+    q.push(root);
+    while (!q.empty()) {
+        int size = q.size();
+        for (int i = 0; i < size; i++) {
+            T* curr = q.front();
+            q.pop();
+            if (curr != nullptr) {
+                std::cout << curr->content->getID() << "," << curr->key << " ";
+                q.push(curr->leftSon);
+                q.push(curr->rightSon);
+            } else {
+                std::cout << "null ";
+            }
         }
-        if (endNode < ptr->key){
-            if(firstLeft)
-                ptr->setExtra(-amount);
-            ptr = ptr->leftSon;
-            firstLeft = false;
-            firstRight = true;
-            continue;
-        }
-        if (endNode > ptr->key){
-            if(firstRight)
-                ptr->setExtra(amount);
-            ptr = ptr->rightSon;
-            firstRight = false;
-            firstLeft = true;
-            continue;
-        }
+        std::cout << std::endl;
     }
-    return;//error
+    std::cout << "---------------------------------------------------------------------" << std::endl;
 }
 
 
