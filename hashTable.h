@@ -8,7 +8,6 @@
 #include "Node.h"
 #include "Customer.h"
 #include "utilesWet2.h"
-#include "ArrayO1.h"
 //made by chain hashing
 
 class hashTable {
@@ -20,15 +19,17 @@ public:
     // array functions
     void check_full();
     void check_quarter_full();
-    AVL_Tree<Node<Customer*>> operator[](int index){return array[index];}; // get
+    AVL_Tree<Node<Customer*>>& operator[](int index){return array[index];}; // get
     // hash functions
-    int hashFunction(int value); // mod
+    int hashFunction(int value) const; // mod
     int getSize() const{return max_size;};
     StatusType_t Insert(Customer* customer);
     void Delete(int key);
     Customer* Search(int value);
     void InsertTree(AVL_Tree<Node<Customer*>> tree);
     void InsertNode(Node<Customer*>* node);
+    void printArr(AVL_Tree<Node<Customer*>>* toPrintArr,int size) const;
+    void printArr() const;
 };
 
 /*

@@ -3,28 +3,39 @@
 //
 #include "recordsCompany.h"
 #include "reversedTree.h"
-
-RecordsCompany::RecordsCompany(): Members(),customersHash(), recordsTree(10)
+void printArrINTTEST(int* toPrintArr,int size)
 {
+    std::cout << "\n" << "Array" << ":   " << std::endl;
+    for (int i = 0; i < size; ++i) {
+        std::cout << toPrintArr[i] << " : ";
+    }
+    std::cout << std::endl;
+}
 
+RecordsCompany::RecordsCompany(): Members(),customersHash(), recordsTree(){
+    reversedTree *temp = new reversedTree(10);
+    recordsTree = temp;
 }
 
 RecordsCompany::~RecordsCompany()
 {
-
+    deleteTree(Members.getRoot());
 }
-
 StatusType RecordsCompany::newMonth(int *records_stocks, int number_of_records)
 {
+    printArrINTTEST(records_stocks,number_of_records);
     if(number_of_records < 0)
         return StatusType::INVALID_INPUT;
-    reversedTree *recordsTree = new reversedTree(number_of_records);
+    //reversedTree *recordsTree = new reversedTree(number_of_records);
+    recordsTree = new reversedTree(number_of_records);
+    recordsTree->initialize(number_of_records);
     for (int i = 0; i < number_of_records ; ++i) {
+        //recordsTree->printArr();
         Record *record = new Record(i,records_stocks[i]);
         recordsTree->makeset(i,record);
     }
     for (int i = 0; i < customersHash.getSize() ; ++i) {
-        customersHash[i].preorderpath;
+        customersHash[i].preOrderPathReset(customersHash[i].getRoot());
     }
     return StatusType::SUCCESS;
 }
@@ -79,14 +90,14 @@ StatusType RecordsCompany::buyRecord(int c_id, int r_id)
         return StatusType::INVALID_INPUT;
 
     Customer* VipCustomer = customersHash.Search(c_id);
-    if( VipCustomer == nullptr || r_id >= recordsTree.getSize())
+    if( VipCustomer == nullptr || r_id >= recordsTree->getSize())
         return StatusType::DOESNT_EXISTS;
     if(!VipCustomer->getMembership()) {
-        recordsTree.getData()[r_id]->purchaseCountInc();
+        recordsTree->getData()[r_id]->purchaseCountInc();
         return SUCCESS;
     }
-    VipCustomer->accumulatedAmountInc(100+recordsTree.getData()[r_id]->getPurchaseCount());
-    recordsTree.getData()[r_id]->purchaseCountInc();
+    VipCustomer->accumulatedAmountInc(100+recordsTree->getData()[r_id]->getPurchaseCount());
+    recordsTree->getData()[r_id]->purchaseCountInc();
     return SUCCESS;
 }
 
@@ -112,10 +123,24 @@ Output_t<double> RecordsCompany::getExpenses(int c_id)
 
 StatusType RecordsCompany::putOnTop(int r_id1, int r_id2)
 {
+    if(r_id1 <0 || r_id2<0)
+        return StatusType::INVALID_INPUT;
+    if(r_id1 >recordsTree->getSize() || r_id2>recordsTree->getSize())
+        return StatusType::DOESNT_EXISTS;
+    StatusType status = recordsTree->groupUnion(r_id1,r_id2);
+    if (status == FAILURE)
+        return status;
 
+    return StatusType::SUCCESS;
 }
 
 StatusType RecordsCompany::getPlace(int r_id, int *column, int *hight)
 {
-
+    if(column == nullptr || hight == nullptr || r_id<0)
+        return StatusType::INVALID_INPUT;
+    if(r_id >recordsTree->getSize())
+        return StatusType::DOESNT_EXISTS;
+    *hight = recordsTree->calcHeight(r_id);
+    *column = recordsTree->getColumn(r_id);
+    return SUCCESS;
 }

@@ -22,13 +22,13 @@ public:
     void setExtra(double a){ this->extraAmount+=a;};
 
     Node():content(0),leftSon(nullptr),rightSon(nullptr),
-           father(nullptr),height(0),key(0){};
+           father(nullptr),height(0),key(0),extraAmount(0){};
 
     Node(int key, T content,Node* father):content(content),leftSon(nullptr),rightSon(nullptr),
-    father(father),height(0),key(key){};
+    father(father),height(0),key(key),extraAmount(0){};
 
     explicit Node(int key):content(0),leftSon(nullptr),rightSon(nullptr),
-                  father(nullptr),height(0),key(key){};
+                  father(nullptr),height(0),key(key),extraAmount(0){};
 
     ~Node()=default;
     Node(Node&)=default;

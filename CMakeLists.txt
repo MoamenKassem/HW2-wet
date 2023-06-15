@@ -3,4 +3,4 @@ project(HW2_wet)
 
 set(CMAKE_CXX_STANDARD 11)
 
-add_executable(HW2_wet main.cpp mainWet2.cpp recordsCompany.cpp hashTable.cpp Customer.cpp reversedTree.cpp)
+add_executable(HW2_wet Customer.cpp hashTable.cpp reversedTree.cpp recordsCompany.cpp mainWet2.cpp)
