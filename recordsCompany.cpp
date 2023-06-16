@@ -3,14 +3,6 @@
 //
 #include "recordsCompany.h"
 #include "reversedTree.h"
-void printArrINTTEST(int* toPrintArr,int size)
-{
-    std::cout << "\n" << "Array" << ":   " << std::endl;
-    for (int i = 0; i < size; ++i) {
-        std::cout << toPrintArr[i] << " : ";
-    }
-    std::cout << std::endl;
-}
 
 RecordsCompany::RecordsCompany(): Members(),customersHash(), recordsTree(){
     reversedTree *temp = new reversedTree(10);
@@ -23,14 +15,12 @@ RecordsCompany::~RecordsCompany()
 }
 StatusType RecordsCompany::newMonth(int *records_stocks, int number_of_records)
 {
-    printArrINTTEST(records_stocks,number_of_records);
     if(number_of_records < 0)
         return StatusType::INVALID_INPUT;
     //reversedTree *recordsTree = new reversedTree(number_of_records);
     recordsTree = new reversedTree(number_of_records);
     recordsTree->initialize(number_of_records);
     for (int i = 0; i < number_of_records ; ++i) {
-        //recordsTree->printArr();
         Record *record = new Record(i,records_stocks[i]);
         recordsTree->makeset(i,record);
     }
@@ -69,6 +59,7 @@ StatusType RecordsCompany::makeMember(int c_id)
     if( VipCustomer->getMembership())
         return StatusType::ALREADY_EXISTS;
     VipCustomer->setMembership(true);
+    VipCustomer->accumulatedAmountInc(-VipCustomer->getAccumulatedAmount());
     Node<Customer*>* node = new Node<Customer*>(c_id,VipCustomer, nullptr);
     Members.searchAndAdd(node);
     return StatusType::SUCCESS;
@@ -103,7 +94,7 @@ StatusType RecordsCompany::buyRecord(int c_id, int r_id)
 
 StatusType RecordsCompany::addPrize(int c_id1, int c_id2, double  amount)
 {
-    if(c_id1 <0 || c_id2<0||amount <= 0)
+    if(c_id1 <0 || c_id2 < c_id1 ||amount <= 0)
         return StatusType::INVALID_INPUT;
     Members.changeExtra(c_id2,amount);
     Members.changeExtra(c_id1,-amount);
@@ -125,7 +116,7 @@ StatusType RecordsCompany::putOnTop(int r_id1, int r_id2)
 {
     if(r_id1 <0 || r_id2<0)
         return StatusType::INVALID_INPUT;
-    if(r_id1 >recordsTree->getSize() || r_id2>recordsTree->getSize())
+    if(r_id1 >=recordsTree->getSize() || r_id2 >= recordsTree->getSize())
         return StatusType::DOESNT_EXISTS;
     StatusType status = recordsTree->groupUnion(r_id1,r_id2);
     if (status == FAILURE)
@@ -138,7 +129,7 @@ StatusType RecordsCompany::getPlace(int r_id, int *column, int *hight)
 {
     if(column == nullptr || hight == nullptr || r_id<0)
         return StatusType::INVALID_INPUT;
-    if(r_id >recordsTree->getSize())
+    if(r_id >=recordsTree->getSize())
         return StatusType::DOESNT_EXISTS;
     *hight = recordsTree->calcHeight(r_id);
     *column = recordsTree->getColumn(r_id);

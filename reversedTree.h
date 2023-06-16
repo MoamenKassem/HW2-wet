@@ -12,6 +12,7 @@ class reversedTree {
     Record** data;
     int* nodeColumn;
     int* heightExtra;
+    int* topContainer;
     int size;
 
 public:
@@ -24,7 +25,6 @@ public:
     Record** getData()const{return data;};
     void initialize(int size);
     int calcHeight(int index);
-    void printArr() const;
     int getColumn(int index);
 };
 

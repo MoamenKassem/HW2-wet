@@ -4,28 +4,6 @@
 
 #include "hashTable.h"
 
-void hashTable::printArr(AVL_Tree<Node<Customer*>>* toPrintArr,int size) const
-{
-    std::cout << "\n" << "Array" << ":   " << std::endl;
-    for (int i = 0; i < size; ++i) {
-        toPrintArr[i].printLevelOrder();
-    }
-    std::cout << std::endl;
-}
-void hashTable::printArr() const
-{
-    std::cout << "\n" << "Array" << ":   " << std::endl;
-    for (int i = 0; i < getSize(); ++i) {
-        array[i].printLevelOrder();
-    }
-    std::cout << std::endl;
-}
-
-
-
-
-
-
 
 hashTable::hashTable():max_size(10),current_size(0)
 {
@@ -43,13 +21,10 @@ void hashTable::check_full()
     current_size = 0;
     for(int i=0;i<max_size/2;i++)
     {
-        printArr(expandedArr,max_size);
-        printArr(tempArr,max_size/2);
         InsertTree(tempArr[i]);
     }
     /*for(int i=0;i<max_size;i++)
     {
-        tempArr.printArr();
         deleteTree(tempArr[i].getRoot());
         tempArr[i].changeRoot(nullptr);
     }*/
@@ -66,13 +41,10 @@ void hashTable::check_quarter_full() {
     current_size = 0;
     for(int i=0;i<max_size*2;i++)
     {
-        printArr(shortenedArr,max_size);
-        printArr(tempArr,max_size*2);
         InsertTree(tempArr[i]);
     }
     /*for(int i=0;i<max_size;i++)
     {
-        tempArr.printArr();
         deleteTree(tempArr[i].getRoot());
         tempArr[i].changeRoot(nullptr);
     }*/

@@ -1,0 +1,5838 @@
+
+Array:   
+11 : 6 : 20 : 1 : 11 : 2 : 7 : 7 : 2 : 9 : 2 : 16 : 9 : 2 : 14 : 6 : 20 : 12 : 10 : 6 : 9 : 3 : 3 : 13 : 12 : 5 : 1 : 13 : 
+newMonth: SUCCESS
+addCostumer: SUCCESS
+addCostumer: SUCCESS
+addCostumer: SUCCESS
+getExpenses: DOESNT_EXISTS
+makeMember: SUCCESS
+getExpenses: INVALID_INPUT
+addCostumer: SUCCESS
+getExpenses: DOESNT_EXISTS
+addPrize: SUCCESS
+addCostumer: SUCCESS
+putOnTop: SUCCESS
+getExpenses: DOESNT_EXISTS
+getExpenses: DOESNT_EXISTS
+getPlace: DOESNT_EXISTS
+getExpenses: DOESNT_EXISTS
+putOnTop: SUCCESS
+getPhone: DOESNT_EXISTS
+putOnTop: SUCCESS
+addPrize: SUCCESS
+isMember: False
+getPlace: DOESNT_EXISTS
+addCostumer: SUCCESS
+isMember: INVALID_INPUT
+makeMember: SUCCESS
+addCostumer: SUCCESS
+buyRecord: SUCCESS
+getExpenses: 100
+putOnTop: SUCCESS
+addPrize: SUCCESS
+isMember: False
+addPrize: SUCCESS
+isMember: True
+makeMember: ALREADY_EXISTS
+buyRecord: DOESNT_EXISTS
+getExpenses: DOESNT_EXISTS
+getPhone: 69
+getExpenses: INVALID_INPUT
+getExpenses: -57
+buyRecord: SUCCESS
+getPlace: column=20, hight=0
+addPrize: SUCCESS
+addPrize: SUCCESS
+addCostumer: SUCCESS
+getPhone: 110
+buyRecord: SUCCESS
+addPrize: SUCCESS
+putOnTop: INVALID_INPUT
+isMember: True
+buyRecord: SUCCESS
+makeMember: ALREADY_EXISTS
+getPhone: 79
+getExpenses: INVALID_INPUT
+addCostumer: INVALID_INPUT
+getPlace: column=9, hight=0
+getExpenses: 92
+addPrize: SUCCESS
+getPlace: column=2, hight=20
+getExpenses: DOESNT_EXISTS
+getPlace: column=6, hight=0
+getExpenses: 92
+getPlace: column=14, hight=0
+addCostumer: SUCCESS
+getPhone: 69
+getExpenses: 92
+getPhone: 176
+addPrize: SUCCESS
+getPlace: column=19, hight=0
+getExpenses: DOESNT_EXISTS
+addCostumer: SUCCESS
+getExpenses: DOESNT_EXISTS
+getPlace: DOESNT_EXISTS
+putOnTop: SUCCESS
+isMember: False
+makeMember: SUCCESS
+addPrize: SUCCESS
+getExpenses: DOESNT_EXISTS
+isMember: INVALID_INPUT
+addCostumer: SUCCESS
+putOnTop: SUCCESS
+isMember: True
+makeMember: SUCCESS
+addCostumer: SUCCESS
+addPrize: SUCCESS
+addCostumer: SUCCESS
+addCostumer: SUCCESS
+buyRecord: SUCCESS
+addCostumer: SUCCESS
+getExpenses: DOESNT_EXISTS
+addCostumer: INVALID_INPUT
+addPrize: SUCCESS
+getPlace: column=0, hight=24
+putOnTop: SUCCESS
+getPlace: column=24, hight=0
+getExpenses: DOESNT_EXISTS
+isMember: False
+getExpenses: DOESNT_EXISTS
+getPlace: column=13, hight=0
+addPrize: SUCCESS
+getExpenses: -20
+addPrize: INVALID_INPUT
+addPrize: SUCCESS
+getExpenses: DOESNT_EXISTS
+makeMember: SUCCESS
+getPhone: 79
+getExpenses: DOESNT_EXISTS
+getPlace: column=0, hight=0
+putOnTop: SUCCESS
+makeMember: SUCCESS
+addCostumer: SUCCESS
+buyRecord: SUCCESS
+addPrize: SUCCESS
+getPhone: 110
+buyRecord: SUCCESS
+addPrize: SUCCESS
+makeMember: SUCCESS
+makeMember: ALREADY_EXISTS
+addPrize: SUCCESS
+getPlace: column=24, hight=12
+makeMember: ALREADY_EXISTS
+getExpenses: -161
+getPlace: column=4, hight=0
+buyRecord: SUCCESS
+makeMember: SUCCESS
+addPrize: SUCCESS
+addPrize: SUCCESS
+buyRecord: SUCCESS
+putOnTop: FAILURE
+isMember: False
+addPrize: SUCCESS
+addPrize: SUCCESS
+getPlace: column=24, hight=0
+addCostumer: SUCCESS
+putOnTop: SUCCESS
+makeMember: ALREADY_EXISTS
+buyRecord: INVALID_INPUT
+getPlace: column=6, hight=0
+addPrize: SUCCESS
+makeMember: INVALID_INPUT
+getPlace: DOESNT_EXISTS
+makeMember: SUCCESS
+addCostumer: SUCCESS
+makeMember: ALREADY_EXISTS
+isMember: False
+isMember: True
+buyRecord: INVALID_INPUT
+putOnTop: SUCCESS
+putOnTop: SUCCESS
+getPlace: column=21, hight=0
+isMember: False
+buyRecord: SUCCESS
+makeMember: SUCCESS
+makeMember: INVALID_INPUT
+buyRecord: DOESNT_EXISTS
+getPhone: DOESNT_EXISTS
+makeMember: SUCCESS
+getExpenses: -73
+getPhone: 203
+addPrize: INVALID_INPUT
+makeMember: ALREADY_EXISTS
+getPlace: column=14, hight=0
+addCostumer: SUCCESS
+putOnTop: SUCCESS
+getPhone: 235
+getExpenses: -73
+isMember: INVALID_INPUT
+getPlace: column=3, hight=1
+getPlace: column=8, hight=0
+getExpenses: -73
+getPlace: column=15, hight=0
+putOnTop: SUCCESS
+putOnTop: SUCCESS
+
+Array:   
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+
+
+Array:   
+120,120 
+30,30 160,160 
+null null null null 
+---------------------------------------------------------------------
+61,61 
+null 221,221 
+null null 
+---------------------------------------------------------------------
+222,222 
+null 232,232 
+null null 
+---------------------------------------------------------------------
+163,163 
+null null 
+---------------------------------------------------------------------
+164,164 
+4,4 174,174 
+null null null null 
+---------------------------------------------------------------------
+245,245 
+null null 
+---------------------------------------------------------------------
+26,26 
+null null 
+---------------------------------------------------------------------
+157,157 
+117,117 227,227 
+null null null null 
+---------------------------------------------------------------------
+38,38 
+null null 
+---------------------------------------------------------------------
+119,119 
+49,49 129,129 
+null null null null 
+---------------------------------------------------------------------
+
+
+Array:   
+160,160 
+120,120 null 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+30,30 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+
+
+Array:   
+120,120 
+30,30 160,160 
+null null null null 
+---------------------------------------------------------------------
+61,61 
+null 221,221 
+null null 
+---------------------------------------------------------------------
+222,222 
+null 232,232 
+null null 
+---------------------------------------------------------------------
+163,163 
+null null 
+---------------------------------------------------------------------
+164,164 
+4,4 174,174 
+null null null null 
+---------------------------------------------------------------------
+245,245 
+null null 
+---------------------------------------------------------------------
+26,26 
+null null 
+---------------------------------------------------------------------
+157,157 
+117,117 227,227 
+null null null null 
+---------------------------------------------------------------------
+38,38 
+null null 
+---------------------------------------------------------------------
+119,119 
+49,49 129,129 
+null null null null 
+---------------------------------------------------------------------
+
+
+Array:   
+160,160 
+120,120 null 
+null null 
+---------------------------------------------------------------------
+221,221 
+61,61 null 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+30,30 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+
+
+Array:   
+120,120 
+30,30 160,160 
+null null null null 
+---------------------------------------------------------------------
+61,61 
+null 221,221 
+null null 
+---------------------------------------------------------------------
+222,222 
+null 232,232 
+null null 
+---------------------------------------------------------------------
+163,163 
+null null 
+---------------------------------------------------------------------
+164,164 
+4,4 174,174 
+null null null null 
+---------------------------------------------------------------------
+245,245 
+null null 
+---------------------------------------------------------------------
+26,26 
+null null 
+---------------------------------------------------------------------
+157,157 
+117,117 227,227 
+null null null null 
+---------------------------------------------------------------------
+38,38 
+null null 
+---------------------------------------------------------------------
+119,119 
+49,49 129,129 
+null null null null 
+---------------------------------------------------------------------
+
+
+Array:   
+160,160 
+120,120 null 
+null null 
+---------------------------------------------------------------------
+221,221 
+61,61 null 
+null null 
+---------------------------------------------------------------------
+222,222 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+30,30 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+232,232 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+
+
+Array:   
+120,120 
+30,30 160,160 
+null null null null 
+---------------------------------------------------------------------
+61,61 
+null 221,221 
+null null 
+---------------------------------------------------------------------
+222,222 
+null 232,232 
+null null 
+---------------------------------------------------------------------
+163,163 
+null null 
+---------------------------------------------------------------------
+164,164 
+4,4 174,174 
+null null null null 
+---------------------------------------------------------------------
+245,245 
+null null 
+---------------------------------------------------------------------
+26,26 
+null null 
+---------------------------------------------------------------------
+157,157 
+117,117 227,227 
+null null null null 
+---------------------------------------------------------------------
+38,38 
+null null 
+---------------------------------------------------------------------
+119,119 
+49,49 129,129 
+null null null null 
+---------------------------------------------------------------------
+
+
+Array:   
+160,160 
+120,120 null 
+null null 
+---------------------------------------------------------------------
+221,221 
+61,61 null 
+null null 
+---------------------------------------------------------------------
+222,222 
+null null 
+---------------------------------------------------------------------
+163,163 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+30,30 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+232,232 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+
+
+Array:   
+120,120 
+30,30 160,160 
+null null null null 
+---------------------------------------------------------------------
+61,61 
+null 221,221 
+null null 
+---------------------------------------------------------------------
+222,222 
+null 232,232 
+null null 
+---------------------------------------------------------------------
+163,163 
+null null 
+---------------------------------------------------------------------
+164,164 
+4,4 174,174 
+null null null null 
+---------------------------------------------------------------------
+245,245 
+null null 
+---------------------------------------------------------------------
+26,26 
+null null 
+---------------------------------------------------------------------
+157,157 
+117,117 227,227 
+null null null null 
+---------------------------------------------------------------------
+38,38 
+null null 
+---------------------------------------------------------------------
+119,119 
+49,49 129,129 
+null null null null 
+---------------------------------------------------------------------
+
+
+Array:   
+160,160 
+120,120 null 
+null null 
+---------------------------------------------------------------------
+221,221 
+61,61 null 
+null null 
+---------------------------------------------------------------------
+222,222 
+null null 
+---------------------------------------------------------------------
+163,163 
+null null 
+---------------------------------------------------------------------
+4,4 
+null 164,164 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+30,30 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+232,232 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+174,174 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+
+
+Array:   
+120,120 
+30,30 160,160 
+null null null null 
+---------------------------------------------------------------------
+61,61 
+null 221,221 
+null null 
+---------------------------------------------------------------------
+222,222 
+null 232,232 
+null null 
+---------------------------------------------------------------------
+163,163 
+null null 
+---------------------------------------------------------------------
+164,164 
+4,4 174,174 
+null null null null 
+---------------------------------------------------------------------
+245,245 
+null null 
+---------------------------------------------------------------------
+26,26 
+null null 
+---------------------------------------------------------------------
+157,157 
+117,117 227,227 
+null null null null 
+---------------------------------------------------------------------
+38,38 
+null null 
+---------------------------------------------------------------------
+119,119 
+49,49 129,129 
+null null null null 
+---------------------------------------------------------------------
+
+
+Array:   
+160,160 
+120,120 null 
+null null 
+---------------------------------------------------------------------
+221,221 
+61,61 null 
+null null 
+---------------------------------------------------------------------
+222,222 
+null null 
+---------------------------------------------------------------------
+163,163 
+null null 
+---------------------------------------------------------------------
+4,4 
+null 164,164 
+null null 
+---------------------------------------------------------------------
+245,245 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+30,30 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+232,232 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+174,174 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+
+
+Array:   
+120,120 
+30,30 160,160 
+null null null null 
+---------------------------------------------------------------------
+61,61 
+null 221,221 
+null null 
+---------------------------------------------------------------------
+222,222 
+null 232,232 
+null null 
+---------------------------------------------------------------------
+163,163 
+null null 
+---------------------------------------------------------------------
+164,164 
+4,4 174,174 
+null null null null 
+---------------------------------------------------------------------
+245,245 
+null null 
+---------------------------------------------------------------------
+26,26 
+null null 
+---------------------------------------------------------------------
+157,157 
+117,117 227,227 
+null null null null 
+---------------------------------------------------------------------
+38,38 
+null null 
+---------------------------------------------------------------------
+119,119 
+49,49 129,129 
+null null null null 
+---------------------------------------------------------------------
+
+
+Array:   
+160,160 
+120,120 null 
+null null 
+---------------------------------------------------------------------
+221,221 
+61,61 null 
+null null 
+---------------------------------------------------------------------
+222,222 
+null null 
+---------------------------------------------------------------------
+163,163 
+null null 
+---------------------------------------------------------------------
+4,4 
+null 164,164 
+null null 
+---------------------------------------------------------------------
+245,245 
+null null 
+---------------------------------------------------------------------
+26,26 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+30,30 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+232,232 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+174,174 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+
+
+Array:   
+120,120 
+30,30 160,160 
+null null null null 
+---------------------------------------------------------------------
+61,61 
+null 221,221 
+null null 
+---------------------------------------------------------------------
+222,222 
+null 232,232 
+null null 
+---------------------------------------------------------------------
+163,163 
+null null 
+---------------------------------------------------------------------
+164,164 
+4,4 174,174 
+null null null null 
+---------------------------------------------------------------------
+245,245 
+null null 
+---------------------------------------------------------------------
+26,26 
+null null 
+---------------------------------------------------------------------
+157,157 
+117,117 227,227 
+null null null null 
+---------------------------------------------------------------------
+38,38 
+null null 
+---------------------------------------------------------------------
+119,119 
+49,49 129,129 
+null null null null 
+---------------------------------------------------------------------
+
+
+Array:   
+160,160 
+120,120 null 
+null null 
+---------------------------------------------------------------------
+221,221 
+61,61 null 
+null null 
+---------------------------------------------------------------------
+222,222 
+null null 
+---------------------------------------------------------------------
+163,163 
+null null 
+---------------------------------------------------------------------
+4,4 
+null 164,164 
+null null 
+---------------------------------------------------------------------
+245,245 
+null null 
+---------------------------------------------------------------------
+26,26 
+null null 
+---------------------------------------------------------------------
+227,227 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+30,30 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+232,232 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+174,174 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+117,117 
+null 157,157 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+
+
+Array:   
+120,120 
+30,30 160,160 
+null null null null 
+---------------------------------------------------------------------
+61,61 
+null 221,221 
+null null 
+---------------------------------------------------------------------
+222,222 
+null 232,232 
+null null 
+---------------------------------------------------------------------
+163,163 
+null null 
+---------------------------------------------------------------------
+164,164 
+4,4 174,174 
+null null null null 
+---------------------------------------------------------------------
+245,245 
+null null 
+---------------------------------------------------------------------
+26,26 
+null null 
+---------------------------------------------------------------------
+157,157 
+117,117 227,227 
+null null null null 
+---------------------------------------------------------------------
+38,38 
+null null 
+---------------------------------------------------------------------
+119,119 
+49,49 129,129 
+null null null null 
+---------------------------------------------------------------------
+
+
+Array:   
+160,160 
+120,120 null 
+null null 
+---------------------------------------------------------------------
+221,221 
+61,61 null 
+null null 
+---------------------------------------------------------------------
+222,222 
+null null 
+---------------------------------------------------------------------
+163,163 
+null null 
+---------------------------------------------------------------------
+4,4 
+null 164,164 
+null null 
+---------------------------------------------------------------------
+245,245 
+null null 
+---------------------------------------------------------------------
+26,26 
+null null 
+---------------------------------------------------------------------
+227,227 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+30,30 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+232,232 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+174,174 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+117,117 
+null 157,157 
+null null 
+---------------------------------------------------------------------
+38,38 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+
+
+Array:   
+120,120 
+30,30 160,160 
+null null null null 
+---------------------------------------------------------------------
+61,61 
+null 221,221 
+null null 
+---------------------------------------------------------------------
+222,222 
+null 232,232 
+null null 
+---------------------------------------------------------------------
+163,163 
+null null 
+---------------------------------------------------------------------
+164,164 
+4,4 174,174 
+null null null null 
+---------------------------------------------------------------------
+245,245 
+null null 
+---------------------------------------------------------------------
+26,26 
+null null 
+---------------------------------------------------------------------
+157,157 
+117,117 227,227 
+null null null null 
+---------------------------------------------------------------------
+38,38 
+null null 
+---------------------------------------------------------------------
+119,119 
+49,49 129,129 
+null null null null 
+---------------------------------------------------------------------
+
+addCostumer: SUCCESS
+getPlace: DOESNT_EXISTS
+getPlace: column=20, hight=0
+getPlace: column=14, hight=37
+isMember: DOESNT_EXISTS
+getPhone: INVALID_INPUT
+makeMember: ALREADY_EXISTS
+addCostumer: SUCCESS
+addPrize: SUCCESS
+getExpenses: DOESNT_EXISTS
+buyRecord: SUCCESS
+getPlace: column=9, hight=0
+putOnTop: SUCCESS
+addPrize: SUCCESS
+getExpenses: -161
+getPhone: 8
+isMember: INVALID_INPUT
+buyRecord: SUCCESS
+addPrize: INVALID_INPUT
+addPrize: INVALID_INPUT
+addPrize: SUCCESS
+addPrize: SUCCESS
+getPhone: DOESNT_EXISTS
+putOnTop: FAILURE
+addPrize: SUCCESS
+buyRecord: INVALID_INPUT
+buyRecord: SUCCESS
+putOnTop: FAILURE
+buyRecord: SUCCESS
+buyRecord: SUCCESS
+putOnTop: DOESNT_EXISTS
+buyRecord: INVALID_INPUT
+buyRecord: SUCCESS
+addCostumer: SUCCESS
+getExpenses: INVALID_INPUT
+buyRecord: SUCCESS
+getPlace: column=14, hight=59
+buyRecord: SUCCESS
+buyRecord: SUCCESS
+getExpenses: DOESNT_EXISTS
+getPhone: 210
+buyRecord: SUCCESS
+addPrize: SUCCESS
+getPlace: column=16, hight=0
+addCostumer: SUCCESS
+buyRecord: DOESNT_EXISTS
+addPrize: SUCCESS
+addCostumer: SUCCESS
+putOnTop: SUCCESS
+isMember: False
+addCostumer: SUCCESS
+getPhone: DOESNT_EXISTS
+makeMember: SUCCESS
+makeMember: SUCCESS
+getExpenses: DOESNT_EXISTS
+putOnTop: SUCCESS
+putOnTop: FAILURE
+putOnTop: DOESNT_EXISTS
+addCostumer: SUCCESS
+getPlace: column=3, hight=0
+getPhone: 183
+getExpenses: -243
+getPhone: 203
+makeMember: ALREADY_EXISTS
+addCostumer: SUCCESS
+addCostumer: SUCCESS
+makeMember: DOESNT_EXISTS
+addCostumer: ALREADY_EXISTS
+buyRecord: SUCCESS
+getPlace: column=4, hight=0
+getExpenses: DOESNT_EXISTS
+addCostumer: ALREADY_EXISTS
+addPrize: SUCCESS
+addCostumer: ALREADY_EXISTS
+getExpenses: DOESNT_EXISTS
+buyRecord: DOESNT_EXISTS
+addPrize: SUCCESS
+putOnTop: SUCCESS
+addPrize: SUCCESS
+putOnTop: FAILURE
+getPhone: 181
+putOnTop: INVALID_INPUT
+addCostumer: SUCCESS
+getPhone: 35
+addCostumer: SUCCESS
+isMember: False
+putOnTop: SUCCESS
+makeMember: SUCCESS
+getExpenses: 97
+getPhone: 110
+getPhone: INVALID_INPUT
+addCostumer: ALREADY_EXISTS
+getPhone: INVALID_INPUT
+makeMember: SUCCESS
+getPhone: INVALID_INPUT
+getPlace: column=3, hight=0
+addCostumer: SUCCESS
+getPlace: column=20, hight=75
+getPhone: 148
+makeMember: ALREADY_EXISTS
+isMember: False
+getPhone: INVALID_INPUT
+addPrize: SUCCESS
+addCostumer: SUCCESS
+addCostumer: SUCCESS
+getPlace: column=20, hight=70
+addPrize: SUCCESS
+makeMember: SUCCESS
+makeMember: SUCCESS
+addCostumer: SUCCESS
+putOnTop: SUCCESS
+addPrize: SUCCESS
+isMember: True
+isMember: False
+makeMember: ALREADY_EXISTS
+getPlace: column=20, hight=70
+makeMember: ALREADY_EXISTS
+buyRecord: INVALID_INPUT
+addCostumer: ALREADY_EXISTS
+putOnTop: FAILURE
+putOnTop: SUCCESS
+getPlace: column=20, hight=57
+addCostumer: SUCCESS
+putOnTop: FAILURE
+putOnTop: DOESNT_EXISTS
+getPhone: 183
+putOnTop: SUCCESS
+addCostumer: SUCCESS
+getPhone: 39
+makeMember: ALREADY_EXISTS
+isMember: False
+putOnTop: SUCCESS
+getExpenses: DOESNT_EXISTS
+getPlace: column=13, hight=0
+getPhone: DOESNT_EXISTS
+buyRecord: SUCCESS
+addPrize: SUCCESS
+makeMember: SUCCESS
+getExpenses: -237
+makeMember: ALREADY_EXISTS
+getExpenses: 53
+buyRecord: SUCCESS
+addPrize: SUCCESS
+makeMember: ALREADY_EXISTS
+addCostumer: ALREADY_EXISTS
+getPhone: INVALID_INPUT
+addPrize: SUCCESS
+buyRecord: DOESNT_EXISTS
+getPhone: 211
+buyRecord: SUCCESS
+makeMember: SUCCESS
+putOnTop: SUCCESS
+getPlace: column=2, hight=48
+addCostumer: ALREADY_EXISTS
+addCostumer: ALREADY_EXISTS
+putOnTop: FAILURE
+buyRecord: DOESNT_EXISTS
+isMember: True
+makeMember: ALREADY_EXISTS
+isMember: INVALID_INPUT
+buyRecord: SUCCESS
+getPhone: 16
+addCostumer: SUCCESS
+addCostumer: ALREADY_EXISTS
+getPhone: 183
+getPlace: column=2, hight=94
+makeMember: SUCCESS
+putOnTop: DOESNT_EXISTS
+getExpenses: DOESNT_EXISTS
+addCostumer: SUCCESS
+makeMember: ALREADY_EXISTS
+addCostumer: SUCCESS
+isMember: True
+isMember: True
+buyRecord: SUCCESS
+makeMember: ALREADY_EXISTS
+makeMember: ALREADY_EXISTS
+getPlace: INVALID_INPUT
+addPrize: SUCCESS
+getExpenses: INVALID_INPUT
+getPhone: 115
+addPrize: SUCCESS
+makeMember: ALREADY_EXISTS
+putOnTop: FAILURE
+buyRecord: DOESNT_EXISTS
+getPhone: 44
+makeMember: DOESNT_EXISTS
+isMember: DOESNT_EXISTS
+getPhone: 152
+getPhone: 8
+addCostumer: SUCCESS
+isMember: True
+getPhone: 116
+addPrize: SUCCESS
+putOnTop: FAILURE
+addCostumer: ALREADY_EXISTS
+getPlace: column=2, hight=109
+addCostumer: SUCCESS
+addCostumer: SUCCESS
+putOnTop: FAILURE
+getPlace: column=2, hight=0
+getPlace: column=2, hight=112
+addCostumer: SUCCESS
+makeMember: ALREADY_EXISTS
+buyRecord: SUCCESS
+getPlace: DOESNT_EXISTS
+getPlace: INVALID_INPUT
+isMember: False
+getPlace: column=2, hight=97
+getPhone: DOESNT_EXISTS
+buyRecord: SUCCESS
+getExpenses: 78
+addPrize: SUCCESS
+isMember: True
+addPrize: SUCCESS
+makeMember: ALREADY_EXISTS
+makeMember: ALREADY_EXISTS
+getPlace: column=2, hight=109
+addPrize: SUCCESS
+addCostumer: SUCCESS
+addPrize: SUCCESS
+makeMember: DOESNT_EXISTS
+isMember: DOESNT_EXISTS
+getPlace: INVALID_INPUT
+isMember: True
+makeMember: SUCCESS
+addCostumer: ALREADY_EXISTS
+addPrize: SUCCESS
+addPrize: INVALID_INPUT
+addPrize: SUCCESS
+getPlace: column=10, hight=0
+makeMember: ALREADY_EXISTS
+isMember: True
+isMember: True
+getPhone: 39
+isMember: True
+isMember: False
+makeMember: SUCCESS
+getExpenses: -255
+addPrize: SUCCESS
+putOnTop: FAILURE
+isMember: True
+makeMember: ALREADY_EXISTS
+isMember: False
+addCostumer: ALREADY_EXISTS
+addPrize: SUCCESS
+putOnTop: FAILURE
+addCostumer: INVALID_INPUT
+buyRecord: SUCCESS
+addPrize: SUCCESS
+isMember: False
+getPlace: column=2, hight=118
+getExpenses: DOESNT_EXISTS
+getPhone: INVALID_INPUT
+getPhone: INVALID_INPUT
+addPrize: SUCCESS
+addPrize: SUCCESS
+isMember: DOESNT_EXISTS
+buyRecord: SUCCESS
+
+Array:   
+13 : 11 : 9 : 11 : 4 : 5 : 7 : 20 : 4 : 17 : 1 : 20 : 12 : 4 : 20 : 8 : 18 : 6 : 15 : 15 : 9 : 17 : 2 : 5 : 13 : 19 : 5 : 5 : 6 : 7 : 5 : 8 : 1 : 10 : 16 : 4 : 
+newMonth: SUCCESS
+putOnTop: SUCCESS
+makeMember: ALREADY_EXISTS
+buyRecord: INVALID_INPUT
+getPlace: column=15, hight=0
+isMember: True
+getPhone: 87
+addCostumer: SUCCESS
+getPlace: column=1, hight=0
+getPhone: 239
+addPrize: SUCCESS
+getExpenses: DOESNT_EXISTS
+addCostumer: SUCCESS
+getPlace: column=0, hight=0
+getPlace: column=9, hight=0
+buyRecord: SUCCESS
+addCostumer: INVALID_INPUT
+getPhone: 39
+getExpenses: INVALID_INPUT
+getPlace: column=4, hight=0
+putOnTop: SUCCESS
+getPhone: 35
+addPrize: INVALID_INPUT
+addPrize: SUCCESS
+isMember: False
+getPlace: column=25, hight=0
+getPhone: 48
+getExpenses: -429
+makeMember: SUCCESS
+getPlace: column=13, hight=0
+getPlace: INVALID_INPUT
+isMember: True
+getExpenses: -478
+putOnTop: SUCCESS
+putOnTop: DOESNT_EXISTS
+buyRecord: SUCCESS
+addCostumer: SUCCESS
+addCostumer: ALREADY_EXISTS
+addCostumer: SUCCESS
+getPhone: 35
+getExpenses: DOESNT_EXISTS
+putOnTop: SUCCESS
+makeMember: SUCCESS
+getPhone: DOESNT_EXISTS
+putOnTop: SUCCESS
+addCostumer: ALREADY_EXISTS
+getExpenses: -700
+getExpenses: -429
+isMember: True
+addPrize: SUCCESS
+putOnTop: SUCCESS
+getExpenses: -474
+getPhone: 35
+putOnTop: SUCCESS
+getPhone: 8
+
+Array:   
+15 : 5 : 8 : 8 : 20 : 9 : 14 : 3 : 2 : 20 : 2 : 
+newMonth: SUCCESS
+makeMember: SUCCESS
+isMember: INVALID_INPUT
+getPlace: column=6, hight=0
+addPrize: SUCCESS
+putOnTop: SUCCESS
+putOnTop: INVALID_INPUT
+addCostumer: SUCCESS
+getPhone: 181
+makeMember: INVALID_INPUT
+getPhone: DOESNT_EXISTS
+getExpenses: DOESNT_EXISTS
+addCostumer: INVALID_INPUT
+putOnTop: FAILURE
+getExpenses: INVALID_INPUT
+addCostumer: SUCCESS
+addCostumer: SUCCESS
+putOnTop: SUCCESS
+getPhone: 182
+getPhone: DOESNT_EXISTS
+buyRecord: SUCCESS
+makeMember: SUCCESS
+addPrize: SUCCESS
+putOnTop: SUCCESS
+addCostumer: SUCCESS
+addCostumer: SUCCESS
+putOnTop: DOESNT_EXISTS
+buyRecord: INVALID_INPUT
+putOnTop: INVALID_INPUT
+getPlace: column=0, hight=0
+isMember: False
+addPrize: SUCCESS
+buyRecord: SUCCESS
+getExpenses: -451
+putOnTop: SUCCESS
+getPlace: INVALID_INPUT
+getPlace: DOESNT_EXISTS
+getExpenses: INVALID_INPUT
+isMember: False
+getPlace: DOESNT_EXISTS
+addPrize: SUCCESS
+addPrize: SUCCESS
+makeMember: SUCCESS
+buyRecord: SUCCESS
+addCostumer: SUCCESS
+getPlace: column=3, hight=8
+getPlace: INVALID_INPUT
+buyRecord: SUCCESS
+addPrize: INVALID_INPUT
+addPrize: SUCCESS
+getExpenses: -297
+makeMember: SUCCESS
+getExpenses: DOESNT_EXISTS
+getPlace: column=9, hight=34
+buyRecord: SUCCESS
+getPlace: column=2, hight=0
+addPrize: SUCCESS
+buyRecord: SUCCESS
+addPrize: INVALID_INPUT
+getExpenses: -451
+addPrize: SUCCESS
+getExpenses: DOESNT_EXISTS
+putOnTop: SUCCESS
+getExpenses: -526
+isMember: True
+getExpenses: DOESNT_EXISTS
+putOnTop: DOESNT_EXISTS
+addCostumer: SUCCESS
+getExpenses: INVALID_INPUT
+isMember: False
+getPhone: 176
+addCostumer: SUCCESS
+buyRecord: SUCCESS
+getPhone: DOESNT_EXISTS
+makeMember: SUCCESS
+putOnTop: INVALID_INPUT
+getPlace: column=10, hight=0
+isMember: True
+makeMember: ALREADY_EXISTS
+buyRecord: SUCCESS
+addCostumer: SUCCESS
+isMember: False
+buyRecord: SUCCESS
+isMember: True
+addCostumer: SUCCESS
+getExpenses: -15
+getPlace: column=0, hight=0
+addPrize: SUCCESS
+isMember: False
+addPrize: SUCCESS
+getPhone: 85
+getExpenses: 418
+getPlace: column=7, hight=39
+getExpenses: DOESNT_EXISTS
+isMember: True
+addCostumer: SUCCESS
+getPlace: column=10, hight=0
+makeMember: SUCCESS
+addPrize: SUCCESS
+getPhone: 79
+
+Array:   
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+
+
+Array:   
+160,160 
+120,120 200,200 
+null null null null 
+---------------------------------------------------------------------
+101,101 
+41,41 161,161 
+1,1 61,61 121,121 221,221 
+null null null null null null null null 
+---------------------------------------------------------------------
+202,202 
+62,62 222,222 
+null 182,182 null null 
+null null 
+---------------------------------------------------------------------
+143,143 
+103,103 163,163 
+83,83 null null 183,183 
+null null null null 
+---------------------------------------------------------------------
+164,164 
+4,4 224,224 
+null null null null 
+---------------------------------------------------------------------
+225,225 
+185,185 245,245 
+125,125 null null null 
+null null 
+---------------------------------------------------------------------
+26,26 
+null 166,166 
+null null 
+---------------------------------------------------------------------
+107,107 
+67,67 227,227 
+null null null null 
+---------------------------------------------------------------------
+68,68 
+8,8 null 
+null null 
+---------------------------------------------------------------------
+109,109 
+49,49 129,129 
+null null null null 
+---------------------------------------------------------------------
+50,50 
+30,30 130,130 
+10,10 null 70,70 150,150 
+null null null null null 250,250 
+null null 
+---------------------------------------------------------------------
+211,211 
+null null 
+---------------------------------------------------------------------
+232,232 
+212,212 null 
+null null 
+---------------------------------------------------------------------
+53,53 
+null null 
+---------------------------------------------------------------------
+134,134 
+34,34 174,174 
+null null null null 
+---------------------------------------------------------------------
+215,215 
+null null 
+---------------------------------------------------------------------
+136,136 
+116,116 196,196 
+null null null null 
+---------------------------------------------------------------------
+117,117 
+37,37 157,157 
+null null null null 
+---------------------------------------------------------------------
+38,38 
+null null 
+---------------------------------------------------------------------
+119,119 
+99,99 null 
+null null 
+---------------------------------------------------------------------
+
+
+Array:   
+160,160 
+120,120 200,200 
+null null null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+
+
+Array:   
+160,160 
+120,120 200,200 
+null null null null 
+---------------------------------------------------------------------
+101,101 
+41,41 161,161 
+1,1 61,61 121,121 221,221 
+null null null null null null null null 
+---------------------------------------------------------------------
+202,202 
+62,62 222,222 
+null 182,182 null null 
+null null 
+---------------------------------------------------------------------
+143,143 
+103,103 163,163 
+83,83 null null 183,183 
+null null null null 
+---------------------------------------------------------------------
+164,164 
+4,4 224,224 
+null null null null 
+---------------------------------------------------------------------
+225,225 
+185,185 245,245 
+125,125 null null null 
+null null 
+---------------------------------------------------------------------
+26,26 
+null 166,166 
+null null 
+---------------------------------------------------------------------
+107,107 
+67,67 227,227 
+null null null null 
+---------------------------------------------------------------------
+68,68 
+8,8 null 
+null null 
+---------------------------------------------------------------------
+109,109 
+49,49 129,129 
+null null null null 
+---------------------------------------------------------------------
+50,50 
+30,30 130,130 
+10,10 null 70,70 150,150 
+null null null null null 250,250 
+null null 
+---------------------------------------------------------------------
+211,211 
+null null 
+---------------------------------------------------------------------
+232,232 
+212,212 null 
+null null 
+---------------------------------------------------------------------
+53,53 
+null null 
+---------------------------------------------------------------------
+134,134 
+34,34 174,174 
+null null null null 
+---------------------------------------------------------------------
+215,215 
+null null 
+---------------------------------------------------------------------
+136,136 
+116,116 196,196 
+null null null null 
+---------------------------------------------------------------------
+117,117 
+37,37 157,157 
+null null null null 
+---------------------------------------------------------------------
+38,38 
+null null 
+---------------------------------------------------------------------
+119,119 
+99,99 null 
+null null 
+---------------------------------------------------------------------
+
+
+Array:   
+160,160 
+120,120 200,200 
+null null null null 
+---------------------------------------------------------------------
+41,41 
+1,1 121,121 
+null null null 161,161 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+101,101 
+61,61 221,221 
+null null null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+
+
+Array:   
+160,160 
+120,120 200,200 
+null null null null 
+---------------------------------------------------------------------
+101,101 
+41,41 161,161 
+1,1 61,61 121,121 221,221 
+null null null null null null null null 
+---------------------------------------------------------------------
+202,202 
+62,62 222,222 
+null 182,182 null null 
+null null 
+---------------------------------------------------------------------
+143,143 
+103,103 163,163 
+83,83 null null 183,183 
+null null null null 
+---------------------------------------------------------------------
+164,164 
+4,4 224,224 
+null null null null 
+---------------------------------------------------------------------
+225,225 
+185,185 245,245 
+125,125 null null null 
+null null 
+---------------------------------------------------------------------
+26,26 
+null 166,166 
+null null 
+---------------------------------------------------------------------
+107,107 
+67,67 227,227 
+null null null null 
+---------------------------------------------------------------------
+68,68 
+8,8 null 
+null null 
+---------------------------------------------------------------------
+109,109 
+49,49 129,129 
+null null null null 
+---------------------------------------------------------------------
+50,50 
+30,30 130,130 
+10,10 null 70,70 150,150 
+null null null null null 250,250 
+null null 
+---------------------------------------------------------------------
+211,211 
+null null 
+---------------------------------------------------------------------
+232,232 
+212,212 null 
+null null 
+---------------------------------------------------------------------
+53,53 
+null null 
+---------------------------------------------------------------------
+134,134 
+34,34 174,174 
+null null null null 
+---------------------------------------------------------------------
+215,215 
+null null 
+---------------------------------------------------------------------
+136,136 
+116,116 196,196 
+null null null null 
+---------------------------------------------------------------------
+117,117 
+37,37 157,157 
+null null null null 
+---------------------------------------------------------------------
+38,38 
+null null 
+---------------------------------------------------------------------
+119,119 
+99,99 null 
+null null 
+---------------------------------------------------------------------
+
+
+Array:   
+160,160 
+120,120 200,200 
+null null null null 
+---------------------------------------------------------------------
+41,41 
+1,1 121,121 
+null null null 161,161 
+null null 
+---------------------------------------------------------------------
+202,202 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+101,101 
+61,61 221,221 
+null null null null 
+---------------------------------------------------------------------
+182,182 
+62,62 222,222 
+null null null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+
+
+Array:   
+160,160 
+120,120 200,200 
+null null null null 
+---------------------------------------------------------------------
+101,101 
+41,41 161,161 
+1,1 61,61 121,121 221,221 
+null null null null null null null null 
+---------------------------------------------------------------------
+202,202 
+62,62 222,222 
+null 182,182 null null 
+null null 
+---------------------------------------------------------------------
+143,143 
+103,103 163,163 
+83,83 null null 183,183 
+null null null null 
+---------------------------------------------------------------------
+164,164 
+4,4 224,224 
+null null null null 
+---------------------------------------------------------------------
+225,225 
+185,185 245,245 
+125,125 null null null 
+null null 
+---------------------------------------------------------------------
+26,26 
+null 166,166 
+null null 
+---------------------------------------------------------------------
+107,107 
+67,67 227,227 
+null null null null 
+---------------------------------------------------------------------
+68,68 
+8,8 null 
+null null 
+---------------------------------------------------------------------
+109,109 
+49,49 129,129 
+null null null null 
+---------------------------------------------------------------------
+50,50 
+30,30 130,130 
+10,10 null 70,70 150,150 
+null null null null null 250,250 
+null null 
+---------------------------------------------------------------------
+211,211 
+null null 
+---------------------------------------------------------------------
+232,232 
+212,212 null 
+null null 
+---------------------------------------------------------------------
+53,53 
+null null 
+---------------------------------------------------------------------
+134,134 
+34,34 174,174 
+null null null null 
+---------------------------------------------------------------------
+215,215 
+null null 
+---------------------------------------------------------------------
+136,136 
+116,116 196,196 
+null null null null 
+---------------------------------------------------------------------
+117,117 
+37,37 157,157 
+null null null null 
+---------------------------------------------------------------------
+38,38 
+null null 
+---------------------------------------------------------------------
+119,119 
+99,99 null 
+null null 
+---------------------------------------------------------------------
+
+
+Array:   
+160,160 
+120,120 200,200 
+null null null null 
+---------------------------------------------------------------------
+41,41 
+1,1 121,121 
+null null null 161,161 
+null null 
+---------------------------------------------------------------------
+202,202 
+null null 
+---------------------------------------------------------------------
+83,83 
+null 163,163 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+101,101 
+61,61 221,221 
+null null null null 
+---------------------------------------------------------------------
+182,182 
+62,62 222,222 
+null null null null 
+---------------------------------------------------------------------
+143,143 
+103,103 183,183 
+null null null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+
+
+Array:   
+160,160 
+120,120 200,200 
+null null null null 
+---------------------------------------------------------------------
+101,101 
+41,41 161,161 
+1,1 61,61 121,121 221,221 
+null null null null null null null null 
+---------------------------------------------------------------------
+202,202 
+62,62 222,222 
+null 182,182 null null 
+null null 
+---------------------------------------------------------------------
+143,143 
+103,103 163,163 
+83,83 null null 183,183 
+null null null null 
+---------------------------------------------------------------------
+164,164 
+4,4 224,224 
+null null null null 
+---------------------------------------------------------------------
+225,225 
+185,185 245,245 
+125,125 null null null 
+null null 
+---------------------------------------------------------------------
+26,26 
+null 166,166 
+null null 
+---------------------------------------------------------------------
+107,107 
+67,67 227,227 
+null null null null 
+---------------------------------------------------------------------
+68,68 
+8,8 null 
+null null 
+---------------------------------------------------------------------
+109,109 
+49,49 129,129 
+null null null null 
+---------------------------------------------------------------------
+50,50 
+30,30 130,130 
+10,10 null 70,70 150,150 
+null null null null null 250,250 
+null null 
+---------------------------------------------------------------------
+211,211 
+null null 
+---------------------------------------------------------------------
+232,232 
+212,212 null 
+null null 
+---------------------------------------------------------------------
+53,53 
+null null 
+---------------------------------------------------------------------
+134,134 
+34,34 174,174 
+null null null null 
+---------------------------------------------------------------------
+215,215 
+null null 
+---------------------------------------------------------------------
+136,136 
+116,116 196,196 
+null null null null 
+---------------------------------------------------------------------
+117,117 
+37,37 157,157 
+null null null null 
+---------------------------------------------------------------------
+38,38 
+null null 
+---------------------------------------------------------------------
+119,119 
+99,99 null 
+null null 
+---------------------------------------------------------------------
+
+
+Array:   
+160,160 
+120,120 200,200 
+null null null null 
+---------------------------------------------------------------------
+41,41 
+1,1 121,121 
+null null null 161,161 
+null null 
+---------------------------------------------------------------------
+202,202 
+null null 
+---------------------------------------------------------------------
+83,83 
+null 163,163 
+null null 
+---------------------------------------------------------------------
+4,4 
+null 164,164 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+101,101 
+61,61 221,221 
+null null null null 
+---------------------------------------------------------------------
+182,182 
+62,62 222,222 
+null null null null 
+---------------------------------------------------------------------
+143,143 
+103,103 183,183 
+null null null null 
+---------------------------------------------------------------------
+224,224 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+
+
+Array:   
+160,160 
+120,120 200,200 
+null null null null 
+---------------------------------------------------------------------
+101,101 
+41,41 161,161 
+1,1 61,61 121,121 221,221 
+null null null null null null null null 
+---------------------------------------------------------------------
+202,202 
+62,62 222,222 
+null 182,182 null null 
+null null 
+---------------------------------------------------------------------
+143,143 
+103,103 163,163 
+83,83 null null 183,183 
+null null null null 
+---------------------------------------------------------------------
+164,164 
+4,4 224,224 
+null null null null 
+---------------------------------------------------------------------
+225,225 
+185,185 245,245 
+125,125 null null null 
+null null 
+---------------------------------------------------------------------
+26,26 
+null 166,166 
+null null 
+---------------------------------------------------------------------
+107,107 
+67,67 227,227 
+null null null null 
+---------------------------------------------------------------------
+68,68 
+8,8 null 
+null null 
+---------------------------------------------------------------------
+109,109 
+49,49 129,129 
+null null null null 
+---------------------------------------------------------------------
+50,50 
+30,30 130,130 
+10,10 null 70,70 150,150 
+null null null null null 250,250 
+null null 
+---------------------------------------------------------------------
+211,211 
+null null 
+---------------------------------------------------------------------
+232,232 
+212,212 null 
+null null 
+---------------------------------------------------------------------
+53,53 
+null null 
+---------------------------------------------------------------------
+134,134 
+34,34 174,174 
+null null null null 
+---------------------------------------------------------------------
+215,215 
+null null 
+---------------------------------------------------------------------
+136,136 
+116,116 196,196 
+null null null null 
+---------------------------------------------------------------------
+117,117 
+37,37 157,157 
+null null null null 
+---------------------------------------------------------------------
+38,38 
+null null 
+---------------------------------------------------------------------
+119,119 
+99,99 null 
+null null 
+---------------------------------------------------------------------
+
+
+Array:   
+160,160 
+120,120 200,200 
+null null null null 
+---------------------------------------------------------------------
+41,41 
+1,1 121,121 
+null null null 161,161 
+null null 
+---------------------------------------------------------------------
+202,202 
+null null 
+---------------------------------------------------------------------
+83,83 
+null 163,163 
+null null 
+---------------------------------------------------------------------
+4,4 
+null 164,164 
+null null 
+---------------------------------------------------------------------
+125,125 
+null 245,245 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+101,101 
+61,61 221,221 
+null null null null 
+---------------------------------------------------------------------
+182,182 
+62,62 222,222 
+null null null null 
+---------------------------------------------------------------------
+143,143 
+103,103 183,183 
+null null null null 
+---------------------------------------------------------------------
+224,224 
+null null 
+---------------------------------------------------------------------
+185,185 
+null 225,225 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+
+
+Array:   
+160,160 
+120,120 200,200 
+null null null null 
+---------------------------------------------------------------------
+101,101 
+41,41 161,161 
+1,1 61,61 121,121 221,221 
+null null null null null null null null 
+---------------------------------------------------------------------
+202,202 
+62,62 222,222 
+null 182,182 null null 
+null null 
+---------------------------------------------------------------------
+143,143 
+103,103 163,163 
+83,83 null null 183,183 
+null null null null 
+---------------------------------------------------------------------
+164,164 
+4,4 224,224 
+null null null null 
+---------------------------------------------------------------------
+225,225 
+185,185 245,245 
+125,125 null null null 
+null null 
+---------------------------------------------------------------------
+26,26 
+null 166,166 
+null null 
+---------------------------------------------------------------------
+107,107 
+67,67 227,227 
+null null null null 
+---------------------------------------------------------------------
+68,68 
+8,8 null 
+null null 
+---------------------------------------------------------------------
+109,109 
+49,49 129,129 
+null null null null 
+---------------------------------------------------------------------
+50,50 
+30,30 130,130 
+10,10 null 70,70 150,150 
+null null null null null 250,250 
+null null 
+---------------------------------------------------------------------
+211,211 
+null null 
+---------------------------------------------------------------------
+232,232 
+212,212 null 
+null null 
+---------------------------------------------------------------------
+53,53 
+null null 
+---------------------------------------------------------------------
+134,134 
+34,34 174,174 
+null null null null 
+---------------------------------------------------------------------
+215,215 
+null null 
+---------------------------------------------------------------------
+136,136 
+116,116 196,196 
+null null null null 
+---------------------------------------------------------------------
+117,117 
+37,37 157,157 
+null null null null 
+---------------------------------------------------------------------
+38,38 
+null null 
+---------------------------------------------------------------------
+119,119 
+99,99 null 
+null null 
+---------------------------------------------------------------------
+
+
+Array:   
+160,160 
+120,120 200,200 
+null null null null 
+---------------------------------------------------------------------
+41,41 
+1,1 121,121 
+null null null 161,161 
+null null 
+---------------------------------------------------------------------
+202,202 
+null null 
+---------------------------------------------------------------------
+83,83 
+null 163,163 
+null null 
+---------------------------------------------------------------------
+4,4 
+null 164,164 
+null null 
+---------------------------------------------------------------------
+125,125 
+null 245,245 
+null null 
+---------------------------------------------------------------------
+166,166 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+101,101 
+61,61 221,221 
+null null null null 
+---------------------------------------------------------------------
+182,182 
+62,62 222,222 
+null null null null 
+---------------------------------------------------------------------
+143,143 
+103,103 183,183 
+null null null null 
+---------------------------------------------------------------------
+224,224 
+null null 
+---------------------------------------------------------------------
+185,185 
+null 225,225 
+null null 
+---------------------------------------------------------------------
+26,26 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+
+
+Array:   
+160,160 
+120,120 200,200 
+null null null null 
+---------------------------------------------------------------------
+101,101 
+41,41 161,161 
+1,1 61,61 121,121 221,221 
+null null null null null null null null 
+---------------------------------------------------------------------
+202,202 
+62,62 222,222 
+null 182,182 null null 
+null null 
+---------------------------------------------------------------------
+143,143 
+103,103 163,163 
+83,83 null null 183,183 
+null null null null 
+---------------------------------------------------------------------
+164,164 
+4,4 224,224 
+null null null null 
+---------------------------------------------------------------------
+225,225 
+185,185 245,245 
+125,125 null null null 
+null null 
+---------------------------------------------------------------------
+26,26 
+null 166,166 
+null null 
+---------------------------------------------------------------------
+107,107 
+67,67 227,227 
+null null null null 
+---------------------------------------------------------------------
+68,68 
+8,8 null 
+null null 
+---------------------------------------------------------------------
+109,109 
+49,49 129,129 
+null null null null 
+---------------------------------------------------------------------
+50,50 
+30,30 130,130 
+10,10 null 70,70 150,150 
+null null null null null 250,250 
+null null 
+---------------------------------------------------------------------
+211,211 
+null null 
+---------------------------------------------------------------------
+232,232 
+212,212 null 
+null null 
+---------------------------------------------------------------------
+53,53 
+null null 
+---------------------------------------------------------------------
+134,134 
+34,34 174,174 
+null null null null 
+---------------------------------------------------------------------
+215,215 
+null null 
+---------------------------------------------------------------------
+136,136 
+116,116 196,196 
+null null null null 
+---------------------------------------------------------------------
+117,117 
+37,37 157,157 
+null null null null 
+---------------------------------------------------------------------
+38,38 
+null null 
+---------------------------------------------------------------------
+119,119 
+99,99 null 
+null null 
+---------------------------------------------------------------------
+
+
+Array:   
+160,160 
+120,120 200,200 
+null null null null 
+---------------------------------------------------------------------
+41,41 
+1,1 121,121 
+null null null 161,161 
+null null 
+---------------------------------------------------------------------
+202,202 
+null null 
+---------------------------------------------------------------------
+83,83 
+null 163,163 
+null null 
+---------------------------------------------------------------------
+4,4 
+null 164,164 
+null null 
+---------------------------------------------------------------------
+125,125 
+null 245,245 
+null null 
+---------------------------------------------------------------------
+166,166 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+101,101 
+61,61 221,221 
+null null null null 
+---------------------------------------------------------------------
+182,182 
+62,62 222,222 
+null null null null 
+---------------------------------------------------------------------
+143,143 
+103,103 183,183 
+null null null null 
+---------------------------------------------------------------------
+224,224 
+null null 
+---------------------------------------------------------------------
+185,185 
+null 225,225 
+null null 
+---------------------------------------------------------------------
+26,26 
+null null 
+---------------------------------------------------------------------
+107,107 
+67,67 227,227 
+null null null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+
+
+Array:   
+160,160 
+120,120 200,200 
+null null null null 
+---------------------------------------------------------------------
+101,101 
+41,41 161,161 
+1,1 61,61 121,121 221,221 
+null null null null null null null null 
+---------------------------------------------------------------------
+202,202 
+62,62 222,222 
+null 182,182 null null 
+null null 
+---------------------------------------------------------------------
+143,143 
+103,103 163,163 
+83,83 null null 183,183 
+null null null null 
+---------------------------------------------------------------------
+164,164 
+4,4 224,224 
+null null null null 
+---------------------------------------------------------------------
+225,225 
+185,185 245,245 
+125,125 null null null 
+null null 
+---------------------------------------------------------------------
+26,26 
+null 166,166 
+null null 
+---------------------------------------------------------------------
+107,107 
+67,67 227,227 
+null null null null 
+---------------------------------------------------------------------
+68,68 
+8,8 null 
+null null 
+---------------------------------------------------------------------
+109,109 
+49,49 129,129 
+null null null null 
+---------------------------------------------------------------------
+50,50 
+30,30 130,130 
+10,10 null 70,70 150,150 
+null null null null null 250,250 
+null null 
+---------------------------------------------------------------------
+211,211 
+null null 
+---------------------------------------------------------------------
+232,232 
+212,212 null 
+null null 
+---------------------------------------------------------------------
+53,53 
+null null 
+---------------------------------------------------------------------
+134,134 
+34,34 174,174 
+null null null null 
+---------------------------------------------------------------------
+215,215 
+null null 
+---------------------------------------------------------------------
+136,136 
+116,116 196,196 
+null null null null 
+---------------------------------------------------------------------
+117,117 
+37,37 157,157 
+null null null null 
+---------------------------------------------------------------------
+38,38 
+null null 
+---------------------------------------------------------------------
+119,119 
+99,99 null 
+null null 
+---------------------------------------------------------------------
+
+
+Array:   
+160,160 
+120,120 200,200 
+null null null null 
+---------------------------------------------------------------------
+41,41 
+1,1 121,121 
+null null null 161,161 
+null null 
+---------------------------------------------------------------------
+202,202 
+null null 
+---------------------------------------------------------------------
+83,83 
+null 163,163 
+null null 
+---------------------------------------------------------------------
+4,4 
+null 164,164 
+null null 
+---------------------------------------------------------------------
+125,125 
+null 245,245 
+null null 
+---------------------------------------------------------------------
+166,166 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+8,8 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+101,101 
+61,61 221,221 
+null null null null 
+---------------------------------------------------------------------
+182,182 
+62,62 222,222 
+null null null null 
+---------------------------------------------------------------------
+143,143 
+103,103 183,183 
+null null null null 
+---------------------------------------------------------------------
+224,224 
+null null 
+---------------------------------------------------------------------
+185,185 
+null 225,225 
+null null 
+---------------------------------------------------------------------
+26,26 
+null null 
+---------------------------------------------------------------------
+107,107 
+67,67 227,227 
+null null null null 
+---------------------------------------------------------------------
+68,68 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+
+
+Array:   
+160,160 
+120,120 200,200 
+null null null null 
+---------------------------------------------------------------------
+101,101 
+41,41 161,161 
+1,1 61,61 121,121 221,221 
+null null null null null null null null 
+---------------------------------------------------------------------
+202,202 
+62,62 222,222 
+null 182,182 null null 
+null null 
+---------------------------------------------------------------------
+143,143 
+103,103 163,163 
+83,83 null null 183,183 
+null null null null 
+---------------------------------------------------------------------
+164,164 
+4,4 224,224 
+null null null null 
+---------------------------------------------------------------------
+225,225 
+185,185 245,245 
+125,125 null null null 
+null null 
+---------------------------------------------------------------------
+26,26 
+null 166,166 
+null null 
+---------------------------------------------------------------------
+107,107 
+67,67 227,227 
+null null null null 
+---------------------------------------------------------------------
+68,68 
+8,8 null 
+null null 
+---------------------------------------------------------------------
+109,109 
+49,49 129,129 
+null null null null 
+---------------------------------------------------------------------
+50,50 
+30,30 130,130 
+10,10 null 70,70 150,150 
+null null null null null 250,250 
+null null 
+---------------------------------------------------------------------
+211,211 
+null null 
+---------------------------------------------------------------------
+232,232 
+212,212 null 
+null null 
+---------------------------------------------------------------------
+53,53 
+null null 
+---------------------------------------------------------------------
+134,134 
+34,34 174,174 
+null null null null 
+---------------------------------------------------------------------
+215,215 
+null null 
+---------------------------------------------------------------------
+136,136 
+116,116 196,196 
+null null null null 
+---------------------------------------------------------------------
+117,117 
+37,37 157,157 
+null null null null 
+---------------------------------------------------------------------
+38,38 
+null null 
+---------------------------------------------------------------------
+119,119 
+99,99 null 
+null null 
+---------------------------------------------------------------------
+
+
+Array:   
+160,160 
+120,120 200,200 
+null null null null 
+---------------------------------------------------------------------
+41,41 
+1,1 121,121 
+null null null 161,161 
+null null 
+---------------------------------------------------------------------
+202,202 
+null null 
+---------------------------------------------------------------------
+83,83 
+null 163,163 
+null null 
+---------------------------------------------------------------------
+4,4 
+null 164,164 
+null null 
+---------------------------------------------------------------------
+125,125 
+null 245,245 
+null null 
+---------------------------------------------------------------------
+166,166 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+8,8 
+null null 
+---------------------------------------------------------------------
+49,49 
+null 129,129 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+101,101 
+61,61 221,221 
+null null null null 
+---------------------------------------------------------------------
+182,182 
+62,62 222,222 
+null null null null 
+---------------------------------------------------------------------
+143,143 
+103,103 183,183 
+null null null null 
+---------------------------------------------------------------------
+224,224 
+null null 
+---------------------------------------------------------------------
+185,185 
+null 225,225 
+null null 
+---------------------------------------------------------------------
+26,26 
+null null 
+---------------------------------------------------------------------
+107,107 
+67,67 227,227 
+null null null null 
+---------------------------------------------------------------------
+68,68 
+null null 
+---------------------------------------------------------------------
+109,109 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+
+
+Array:   
+160,160 
+120,120 200,200 
+null null null null 
+---------------------------------------------------------------------
+101,101 
+41,41 161,161 
+1,1 61,61 121,121 221,221 
+null null null null null null null null 
+---------------------------------------------------------------------
+202,202 
+62,62 222,222 
+null 182,182 null null 
+null null 
+---------------------------------------------------------------------
+143,143 
+103,103 163,163 
+83,83 null null 183,183 
+null null null null 
+---------------------------------------------------------------------
+164,164 
+4,4 224,224 
+null null null null 
+---------------------------------------------------------------------
+225,225 
+185,185 245,245 
+125,125 null null null 
+null null 
+---------------------------------------------------------------------
+26,26 
+null 166,166 
+null null 
+---------------------------------------------------------------------
+107,107 
+67,67 227,227 
+null null null null 
+---------------------------------------------------------------------
+68,68 
+8,8 null 
+null null 
+---------------------------------------------------------------------
+109,109 
+49,49 129,129 
+null null null null 
+---------------------------------------------------------------------
+50,50 
+30,30 130,130 
+10,10 null 70,70 150,150 
+null null null null null 250,250 
+null null 
+---------------------------------------------------------------------
+211,211 
+null null 
+---------------------------------------------------------------------
+232,232 
+212,212 null 
+null null 
+---------------------------------------------------------------------
+53,53 
+null null 
+---------------------------------------------------------------------
+134,134 
+34,34 174,174 
+null null null null 
+---------------------------------------------------------------------
+215,215 
+null null 
+---------------------------------------------------------------------
+136,136 
+116,116 196,196 
+null null null null 
+---------------------------------------------------------------------
+117,117 
+37,37 157,157 
+null null null null 
+---------------------------------------------------------------------
+38,38 
+null null 
+---------------------------------------------------------------------
+119,119 
+99,99 null 
+null null 
+---------------------------------------------------------------------
+
+
+Array:   
+160,160 
+120,120 200,200 
+null null null null 
+---------------------------------------------------------------------
+41,41 
+1,1 121,121 
+null null null 161,161 
+null null 
+---------------------------------------------------------------------
+202,202 
+null null 
+---------------------------------------------------------------------
+83,83 
+null 163,163 
+null null 
+---------------------------------------------------------------------
+4,4 
+null 164,164 
+null null 
+---------------------------------------------------------------------
+125,125 
+null 245,245 
+null null 
+---------------------------------------------------------------------
+166,166 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+8,8 
+null null 
+---------------------------------------------------------------------
+49,49 
+null 129,129 
+null null 
+---------------------------------------------------------------------
+130,130 
+10,10 250,250 
+null 50,50 null null 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+101,101 
+61,61 221,221 
+null null null null 
+---------------------------------------------------------------------
+182,182 
+62,62 222,222 
+null null null null 
+---------------------------------------------------------------------
+143,143 
+103,103 183,183 
+null null null null 
+---------------------------------------------------------------------
+224,224 
+null null 
+---------------------------------------------------------------------
+185,185 
+null 225,225 
+null null 
+---------------------------------------------------------------------
+26,26 
+null null 
+---------------------------------------------------------------------
+107,107 
+67,67 227,227 
+null null null null 
+---------------------------------------------------------------------
+68,68 
+null null 
+---------------------------------------------------------------------
+109,109 
+null null 
+---------------------------------------------------------------------
+70,70 
+30,30 150,150 
+null null null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+
+
+Array:   
+160,160 
+120,120 200,200 
+null null null null 
+---------------------------------------------------------------------
+101,101 
+41,41 161,161 
+1,1 61,61 121,121 221,221 
+null null null null null null null null 
+---------------------------------------------------------------------
+202,202 
+62,62 222,222 
+null 182,182 null null 
+null null 
+---------------------------------------------------------------------
+143,143 
+103,103 163,163 
+83,83 null null 183,183 
+null null null null 
+---------------------------------------------------------------------
+164,164 
+4,4 224,224 
+null null null null 
+---------------------------------------------------------------------
+225,225 
+185,185 245,245 
+125,125 null null null 
+null null 
+---------------------------------------------------------------------
+26,26 
+null 166,166 
+null null 
+---------------------------------------------------------------------
+107,107 
+67,67 227,227 
+null null null null 
+---------------------------------------------------------------------
+68,68 
+8,8 null 
+null null 
+---------------------------------------------------------------------
+109,109 
+49,49 129,129 
+null null null null 
+---------------------------------------------------------------------
+50,50 
+30,30 130,130 
+10,10 null 70,70 150,150 
+null null null null null 250,250 
+null null 
+---------------------------------------------------------------------
+211,211 
+null null 
+---------------------------------------------------------------------
+232,232 
+212,212 null 
+null null 
+---------------------------------------------------------------------
+53,53 
+null null 
+---------------------------------------------------------------------
+134,134 
+34,34 174,174 
+null null null null 
+---------------------------------------------------------------------
+215,215 
+null null 
+---------------------------------------------------------------------
+136,136 
+116,116 196,196 
+null null null null 
+---------------------------------------------------------------------
+117,117 
+37,37 157,157 
+null null null null 
+---------------------------------------------------------------------
+38,38 
+null null 
+---------------------------------------------------------------------
+119,119 
+99,99 null 
+null null 
+---------------------------------------------------------------------
+
+
+Array:   
+160,160 
+120,120 200,200 
+null null null null 
+---------------------------------------------------------------------
+41,41 
+1,1 121,121 
+null null null 161,161 
+null null 
+---------------------------------------------------------------------
+202,202 
+null null 
+---------------------------------------------------------------------
+83,83 
+null 163,163 
+null null 
+---------------------------------------------------------------------
+4,4 
+null 164,164 
+null null 
+---------------------------------------------------------------------
+125,125 
+null 245,245 
+null null 
+---------------------------------------------------------------------
+166,166 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+8,8 
+null null 
+---------------------------------------------------------------------
+49,49 
+null 129,129 
+null null 
+---------------------------------------------------------------------
+130,130 
+10,10 250,250 
+null 50,50 null null 
+null null 
+---------------------------------------------------------------------
+211,211 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+101,101 
+61,61 221,221 
+null null null null 
+---------------------------------------------------------------------
+182,182 
+62,62 222,222 
+null null null null 
+---------------------------------------------------------------------
+143,143 
+103,103 183,183 
+null null null null 
+---------------------------------------------------------------------
+224,224 
+null null 
+---------------------------------------------------------------------
+185,185 
+null 225,225 
+null null 
+---------------------------------------------------------------------
+26,26 
+null null 
+---------------------------------------------------------------------
+107,107 
+67,67 227,227 
+null null null null 
+---------------------------------------------------------------------
+68,68 
+null null 
+---------------------------------------------------------------------
+109,109 
+null null 
+---------------------------------------------------------------------
+70,70 
+30,30 150,150 
+null null null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+
+
+Array:   
+160,160 
+120,120 200,200 
+null null null null 
+---------------------------------------------------------------------
+101,101 
+41,41 161,161 
+1,1 61,61 121,121 221,221 
+null null null null null null null null 
+---------------------------------------------------------------------
+202,202 
+62,62 222,222 
+null 182,182 null null 
+null null 
+---------------------------------------------------------------------
+143,143 
+103,103 163,163 
+83,83 null null 183,183 
+null null null null 
+---------------------------------------------------------------------
+164,164 
+4,4 224,224 
+null null null null 
+---------------------------------------------------------------------
+225,225 
+185,185 245,245 
+125,125 null null null 
+null null 
+---------------------------------------------------------------------
+26,26 
+null 166,166 
+null null 
+---------------------------------------------------------------------
+107,107 
+67,67 227,227 
+null null null null 
+---------------------------------------------------------------------
+68,68 
+8,8 null 
+null null 
+---------------------------------------------------------------------
+109,109 
+49,49 129,129 
+null null null null 
+---------------------------------------------------------------------
+50,50 
+30,30 130,130 
+10,10 null 70,70 150,150 
+null null null null null 250,250 
+null null 
+---------------------------------------------------------------------
+211,211 
+null null 
+---------------------------------------------------------------------
+232,232 
+212,212 null 
+null null 
+---------------------------------------------------------------------
+53,53 
+null null 
+---------------------------------------------------------------------
+134,134 
+34,34 174,174 
+null null null null 
+---------------------------------------------------------------------
+215,215 
+null null 
+---------------------------------------------------------------------
+136,136 
+116,116 196,196 
+null null null null 
+---------------------------------------------------------------------
+117,117 
+37,37 157,157 
+null null null null 
+---------------------------------------------------------------------
+38,38 
+null null 
+---------------------------------------------------------------------
+119,119 
+99,99 null 
+null null 
+---------------------------------------------------------------------
+
+
+Array:   
+160,160 
+120,120 200,200 
+null null null null 
+---------------------------------------------------------------------
+41,41 
+1,1 121,121 
+null null null 161,161 
+null null 
+---------------------------------------------------------------------
+202,202 
+null null 
+---------------------------------------------------------------------
+83,83 
+null 163,163 
+null null 
+---------------------------------------------------------------------
+4,4 
+null 164,164 
+null null 
+---------------------------------------------------------------------
+125,125 
+null 245,245 
+null null 
+---------------------------------------------------------------------
+166,166 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+8,8 
+null null 
+---------------------------------------------------------------------
+49,49 
+null 129,129 
+null null 
+---------------------------------------------------------------------
+130,130 
+10,10 250,250 
+null 50,50 null null 
+null null 
+---------------------------------------------------------------------
+211,211 
+null null 
+---------------------------------------------------------------------
+212,212 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+101,101 
+61,61 221,221 
+null null null null 
+---------------------------------------------------------------------
+182,182 
+62,62 222,222 
+null null null null 
+---------------------------------------------------------------------
+143,143 
+103,103 183,183 
+null null null null 
+---------------------------------------------------------------------
+224,224 
+null null 
+---------------------------------------------------------------------
+185,185 
+null 225,225 
+null null 
+---------------------------------------------------------------------
+26,26 
+null null 
+---------------------------------------------------------------------
+107,107 
+67,67 227,227 
+null null null null 
+---------------------------------------------------------------------
+68,68 
+null null 
+---------------------------------------------------------------------
+109,109 
+null null 
+---------------------------------------------------------------------
+70,70 
+30,30 150,150 
+null null null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+232,232 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+
+
+Array:   
+160,160 
+120,120 200,200 
+null null null null 
+---------------------------------------------------------------------
+101,101 
+41,41 161,161 
+1,1 61,61 121,121 221,221 
+null null null null null null null null 
+---------------------------------------------------------------------
+202,202 
+62,62 222,222 
+null 182,182 null null 
+null null 
+---------------------------------------------------------------------
+143,143 
+103,103 163,163 
+83,83 null null 183,183 
+null null null null 
+---------------------------------------------------------------------
+164,164 
+4,4 224,224 
+null null null null 
+---------------------------------------------------------------------
+225,225 
+185,185 245,245 
+125,125 null null null 
+null null 
+---------------------------------------------------------------------
+26,26 
+null 166,166 
+null null 
+---------------------------------------------------------------------
+107,107 
+67,67 227,227 
+null null null null 
+---------------------------------------------------------------------
+68,68 
+8,8 null 
+null null 
+---------------------------------------------------------------------
+109,109 
+49,49 129,129 
+null null null null 
+---------------------------------------------------------------------
+50,50 
+30,30 130,130 
+10,10 null 70,70 150,150 
+null null null null null 250,250 
+null null 
+---------------------------------------------------------------------
+211,211 
+null null 
+---------------------------------------------------------------------
+232,232 
+212,212 null 
+null null 
+---------------------------------------------------------------------
+53,53 
+null null 
+---------------------------------------------------------------------
+134,134 
+34,34 174,174 
+null null null null 
+---------------------------------------------------------------------
+215,215 
+null null 
+---------------------------------------------------------------------
+136,136 
+116,116 196,196 
+null null null null 
+---------------------------------------------------------------------
+117,117 
+37,37 157,157 
+null null null null 
+---------------------------------------------------------------------
+38,38 
+null null 
+---------------------------------------------------------------------
+119,119 
+99,99 null 
+null null 
+---------------------------------------------------------------------
+
+
+Array:   
+160,160 
+120,120 200,200 
+null null null null 
+---------------------------------------------------------------------
+41,41 
+1,1 121,121 
+null null null 161,161 
+null null 
+---------------------------------------------------------------------
+202,202 
+null null 
+---------------------------------------------------------------------
+83,83 
+null 163,163 
+null null 
+---------------------------------------------------------------------
+4,4 
+null 164,164 
+null null 
+---------------------------------------------------------------------
+125,125 
+null 245,245 
+null null 
+---------------------------------------------------------------------
+166,166 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+8,8 
+null null 
+---------------------------------------------------------------------
+49,49 
+null 129,129 
+null null 
+---------------------------------------------------------------------
+130,130 
+10,10 250,250 
+null 50,50 null null 
+null null 
+---------------------------------------------------------------------
+211,211 
+null null 
+---------------------------------------------------------------------
+212,212 
+null null 
+---------------------------------------------------------------------
+53,53 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+101,101 
+61,61 221,221 
+null null null null 
+---------------------------------------------------------------------
+182,182 
+62,62 222,222 
+null null null null 
+---------------------------------------------------------------------
+143,143 
+103,103 183,183 
+null null null null 
+---------------------------------------------------------------------
+224,224 
+null null 
+---------------------------------------------------------------------
+185,185 
+null 225,225 
+null null 
+---------------------------------------------------------------------
+26,26 
+null null 
+---------------------------------------------------------------------
+107,107 
+67,67 227,227 
+null null null null 
+---------------------------------------------------------------------
+68,68 
+null null 
+---------------------------------------------------------------------
+109,109 
+null null 
+---------------------------------------------------------------------
+70,70 
+30,30 150,150 
+null null null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+232,232 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+
+
+Array:   
+160,160 
+120,120 200,200 
+null null null null 
+---------------------------------------------------------------------
+101,101 
+41,41 161,161 
+1,1 61,61 121,121 221,221 
+null null null null null null null null 
+---------------------------------------------------------------------
+202,202 
+62,62 222,222 
+null 182,182 null null 
+null null 
+---------------------------------------------------------------------
+143,143 
+103,103 163,163 
+83,83 null null 183,183 
+null null null null 
+---------------------------------------------------------------------
+164,164 
+4,4 224,224 
+null null null null 
+---------------------------------------------------------------------
+225,225 
+185,185 245,245 
+125,125 null null null 
+null null 
+---------------------------------------------------------------------
+26,26 
+null 166,166 
+null null 
+---------------------------------------------------------------------
+107,107 
+67,67 227,227 
+null null null null 
+---------------------------------------------------------------------
+68,68 
+8,8 null 
+null null 
+---------------------------------------------------------------------
+109,109 
+49,49 129,129 
+null null null null 
+---------------------------------------------------------------------
+50,50 
+30,30 130,130 
+10,10 null 70,70 150,150 
+null null null null null 250,250 
+null null 
+---------------------------------------------------------------------
+211,211 
+null null 
+---------------------------------------------------------------------
+232,232 
+212,212 null 
+null null 
+---------------------------------------------------------------------
+53,53 
+null null 
+---------------------------------------------------------------------
+134,134 
+34,34 174,174 
+null null null null 
+---------------------------------------------------------------------
+215,215 
+null null 
+---------------------------------------------------------------------
+136,136 
+116,116 196,196 
+null null null null 
+---------------------------------------------------------------------
+117,117 
+37,37 157,157 
+null null null null 
+---------------------------------------------------------------------
+38,38 
+null null 
+---------------------------------------------------------------------
+119,119 
+99,99 null 
+null null 
+---------------------------------------------------------------------
+
+
+Array:   
+160,160 
+120,120 200,200 
+null null null null 
+---------------------------------------------------------------------
+41,41 
+1,1 121,121 
+null null null 161,161 
+null null 
+---------------------------------------------------------------------
+202,202 
+null null 
+---------------------------------------------------------------------
+83,83 
+null 163,163 
+null null 
+---------------------------------------------------------------------
+4,4 
+null 164,164 
+null null 
+---------------------------------------------------------------------
+125,125 
+null 245,245 
+null null 
+---------------------------------------------------------------------
+166,166 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+8,8 
+null null 
+---------------------------------------------------------------------
+49,49 
+null 129,129 
+null null 
+---------------------------------------------------------------------
+130,130 
+10,10 250,250 
+null 50,50 null null 
+null null 
+---------------------------------------------------------------------
+211,211 
+null null 
+---------------------------------------------------------------------
+212,212 
+null null 
+---------------------------------------------------------------------
+53,53 
+null null 
+---------------------------------------------------------------------
+174,174 
+134,134 null 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+101,101 
+61,61 221,221 
+null null null null 
+---------------------------------------------------------------------
+182,182 
+62,62 222,222 
+null null null null 
+---------------------------------------------------------------------
+143,143 
+103,103 183,183 
+null null null null 
+---------------------------------------------------------------------
+224,224 
+null null 
+---------------------------------------------------------------------
+185,185 
+null 225,225 
+null null 
+---------------------------------------------------------------------
+26,26 
+null null 
+---------------------------------------------------------------------
+107,107 
+67,67 227,227 
+null null null null 
+---------------------------------------------------------------------
+68,68 
+null null 
+---------------------------------------------------------------------
+109,109 
+null null 
+---------------------------------------------------------------------
+70,70 
+30,30 150,150 
+null null null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+232,232 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+34,34 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+
+
+Array:   
+160,160 
+120,120 200,200 
+null null null null 
+---------------------------------------------------------------------
+101,101 
+41,41 161,161 
+1,1 61,61 121,121 221,221 
+null null null null null null null null 
+---------------------------------------------------------------------
+202,202 
+62,62 222,222 
+null 182,182 null null 
+null null 
+---------------------------------------------------------------------
+143,143 
+103,103 163,163 
+83,83 null null 183,183 
+null null null null 
+---------------------------------------------------------------------
+164,164 
+4,4 224,224 
+null null null null 
+---------------------------------------------------------------------
+225,225 
+185,185 245,245 
+125,125 null null null 
+null null 
+---------------------------------------------------------------------
+26,26 
+null 166,166 
+null null 
+---------------------------------------------------------------------
+107,107 
+67,67 227,227 
+null null null null 
+---------------------------------------------------------------------
+68,68 
+8,8 null 
+null null 
+---------------------------------------------------------------------
+109,109 
+49,49 129,129 
+null null null null 
+---------------------------------------------------------------------
+50,50 
+30,30 130,130 
+10,10 null 70,70 150,150 
+null null null null null 250,250 
+null null 
+---------------------------------------------------------------------
+211,211 
+null null 
+---------------------------------------------------------------------
+232,232 
+212,212 null 
+null null 
+---------------------------------------------------------------------
+53,53 
+null null 
+---------------------------------------------------------------------
+134,134 
+34,34 174,174 
+null null null null 
+---------------------------------------------------------------------
+215,215 
+null null 
+---------------------------------------------------------------------
+136,136 
+116,116 196,196 
+null null null null 
+---------------------------------------------------------------------
+117,117 
+37,37 157,157 
+null null null null 
+---------------------------------------------------------------------
+38,38 
+null null 
+---------------------------------------------------------------------
+119,119 
+99,99 null 
+null null 
+---------------------------------------------------------------------
+
+
+Array:   
+160,160 
+120,120 200,200 
+null null null null 
+---------------------------------------------------------------------
+41,41 
+1,1 121,121 
+null null null 161,161 
+null null 
+---------------------------------------------------------------------
+202,202 
+null null 
+---------------------------------------------------------------------
+83,83 
+null 163,163 
+null null 
+---------------------------------------------------------------------
+4,4 
+null 164,164 
+null null 
+---------------------------------------------------------------------
+125,125 
+null 245,245 
+null null 
+---------------------------------------------------------------------
+166,166 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+8,8 
+null null 
+---------------------------------------------------------------------
+49,49 
+null 129,129 
+null null 
+---------------------------------------------------------------------
+130,130 
+10,10 250,250 
+null 50,50 null null 
+null null 
+---------------------------------------------------------------------
+211,211 
+null null 
+---------------------------------------------------------------------
+212,212 
+null null 
+---------------------------------------------------------------------
+53,53 
+null null 
+---------------------------------------------------------------------
+174,174 
+134,134 null 
+null null 
+---------------------------------------------------------------------
+215,215 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+101,101 
+61,61 221,221 
+null null null null 
+---------------------------------------------------------------------
+182,182 
+62,62 222,222 
+null null null null 
+---------------------------------------------------------------------
+143,143 
+103,103 183,183 
+null null null null 
+---------------------------------------------------------------------
+224,224 
+null null 
+---------------------------------------------------------------------
+185,185 
+null 225,225 
+null null 
+---------------------------------------------------------------------
+26,26 
+null null 
+---------------------------------------------------------------------
+107,107 
+67,67 227,227 
+null null null null 
+---------------------------------------------------------------------
+68,68 
+null null 
+---------------------------------------------------------------------
+109,109 
+null null 
+---------------------------------------------------------------------
+70,70 
+30,30 150,150 
+null null null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+232,232 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+34,34 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+
+
+Array:   
+160,160 
+120,120 200,200 
+null null null null 
+---------------------------------------------------------------------
+101,101 
+41,41 161,161 
+1,1 61,61 121,121 221,221 
+null null null null null null null null 
+---------------------------------------------------------------------
+202,202 
+62,62 222,222 
+null 182,182 null null 
+null null 
+---------------------------------------------------------------------
+143,143 
+103,103 163,163 
+83,83 null null 183,183 
+null null null null 
+---------------------------------------------------------------------
+164,164 
+4,4 224,224 
+null null null null 
+---------------------------------------------------------------------
+225,225 
+185,185 245,245 
+125,125 null null null 
+null null 
+---------------------------------------------------------------------
+26,26 
+null 166,166 
+null null 
+---------------------------------------------------------------------
+107,107 
+67,67 227,227 
+null null null null 
+---------------------------------------------------------------------
+68,68 
+8,8 null 
+null null 
+---------------------------------------------------------------------
+109,109 
+49,49 129,129 
+null null null null 
+---------------------------------------------------------------------
+50,50 
+30,30 130,130 
+10,10 null 70,70 150,150 
+null null null null null 250,250 
+null null 
+---------------------------------------------------------------------
+211,211 
+null null 
+---------------------------------------------------------------------
+232,232 
+212,212 null 
+null null 
+---------------------------------------------------------------------
+53,53 
+null null 
+---------------------------------------------------------------------
+134,134 
+34,34 174,174 
+null null null null 
+---------------------------------------------------------------------
+215,215 
+null null 
+---------------------------------------------------------------------
+136,136 
+116,116 196,196 
+null null null null 
+---------------------------------------------------------------------
+117,117 
+37,37 157,157 
+null null null null 
+---------------------------------------------------------------------
+38,38 
+null null 
+---------------------------------------------------------------------
+119,119 
+99,99 null 
+null null 
+---------------------------------------------------------------------
+
+
+Array:   
+160,160 
+120,120 200,200 
+null null null null 
+---------------------------------------------------------------------
+41,41 
+1,1 121,121 
+null null null 161,161 
+null null 
+---------------------------------------------------------------------
+202,202 
+null null 
+---------------------------------------------------------------------
+83,83 
+null 163,163 
+null null 
+---------------------------------------------------------------------
+4,4 
+null 164,164 
+null null 
+---------------------------------------------------------------------
+125,125 
+null 245,245 
+null null 
+---------------------------------------------------------------------
+166,166 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+8,8 
+null null 
+---------------------------------------------------------------------
+49,49 
+null 129,129 
+null null 
+---------------------------------------------------------------------
+130,130 
+10,10 250,250 
+null 50,50 null null 
+null null 
+---------------------------------------------------------------------
+211,211 
+null null 
+---------------------------------------------------------------------
+212,212 
+null null 
+---------------------------------------------------------------------
+53,53 
+null null 
+---------------------------------------------------------------------
+174,174 
+134,134 null 
+null null 
+---------------------------------------------------------------------
+215,215 
+null null 
+---------------------------------------------------------------------
+136,136 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+101,101 
+61,61 221,221 
+null null null null 
+---------------------------------------------------------------------
+182,182 
+62,62 222,222 
+null null null null 
+---------------------------------------------------------------------
+143,143 
+103,103 183,183 
+null null null null 
+---------------------------------------------------------------------
+224,224 
+null null 
+---------------------------------------------------------------------
+185,185 
+null 225,225 
+null null 
+---------------------------------------------------------------------
+26,26 
+null null 
+---------------------------------------------------------------------
+107,107 
+67,67 227,227 
+null null null null 
+---------------------------------------------------------------------
+68,68 
+null null 
+---------------------------------------------------------------------
+109,109 
+null null 
+---------------------------------------------------------------------
+70,70 
+30,30 150,150 
+null null null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+232,232 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+34,34 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+116,116 
+null 196,196 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+
+
+Array:   
+160,160 
+120,120 200,200 
+null null null null 
+---------------------------------------------------------------------
+101,101 
+41,41 161,161 
+1,1 61,61 121,121 221,221 
+null null null null null null null null 
+---------------------------------------------------------------------
+202,202 
+62,62 222,222 
+null 182,182 null null 
+null null 
+---------------------------------------------------------------------
+143,143 
+103,103 163,163 
+83,83 null null 183,183 
+null null null null 
+---------------------------------------------------------------------
+164,164 
+4,4 224,224 
+null null null null 
+---------------------------------------------------------------------
+225,225 
+185,185 245,245 
+125,125 null null null 
+null null 
+---------------------------------------------------------------------
+26,26 
+null 166,166 
+null null 
+---------------------------------------------------------------------
+107,107 
+67,67 227,227 
+null null null null 
+---------------------------------------------------------------------
+68,68 
+8,8 null 
+null null 
+---------------------------------------------------------------------
+109,109 
+49,49 129,129 
+null null null null 
+---------------------------------------------------------------------
+50,50 
+30,30 130,130 
+10,10 null 70,70 150,150 
+null null null null null 250,250 
+null null 
+---------------------------------------------------------------------
+211,211 
+null null 
+---------------------------------------------------------------------
+232,232 
+212,212 null 
+null null 
+---------------------------------------------------------------------
+53,53 
+null null 
+---------------------------------------------------------------------
+134,134 
+34,34 174,174 
+null null null null 
+---------------------------------------------------------------------
+215,215 
+null null 
+---------------------------------------------------------------------
+136,136 
+116,116 196,196 
+null null null null 
+---------------------------------------------------------------------
+117,117 
+37,37 157,157 
+null null null null 
+---------------------------------------------------------------------
+38,38 
+null null 
+---------------------------------------------------------------------
+119,119 
+99,99 null 
+null null 
+---------------------------------------------------------------------
+
+
+Array:   
+160,160 
+120,120 200,200 
+null null null null 
+---------------------------------------------------------------------
+41,41 
+1,1 121,121 
+null null null 161,161 
+null null 
+---------------------------------------------------------------------
+202,202 
+null null 
+---------------------------------------------------------------------
+83,83 
+null 163,163 
+null null 
+---------------------------------------------------------------------
+4,4 
+null 164,164 
+null null 
+---------------------------------------------------------------------
+125,125 
+null 245,245 
+null null 
+---------------------------------------------------------------------
+166,166 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+8,8 
+null null 
+---------------------------------------------------------------------
+49,49 
+null 129,129 
+null null 
+---------------------------------------------------------------------
+130,130 
+10,10 250,250 
+null 50,50 null null 
+null null 
+---------------------------------------------------------------------
+211,211 
+null null 
+---------------------------------------------------------------------
+212,212 
+null null 
+---------------------------------------------------------------------
+53,53 
+null null 
+---------------------------------------------------------------------
+174,174 
+134,134 null 
+null null 
+---------------------------------------------------------------------
+215,215 
+null null 
+---------------------------------------------------------------------
+136,136 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+101,101 
+61,61 221,221 
+null null null null 
+---------------------------------------------------------------------
+182,182 
+62,62 222,222 
+null null null null 
+---------------------------------------------------------------------
+143,143 
+103,103 183,183 
+null null null null 
+---------------------------------------------------------------------
+224,224 
+null null 
+---------------------------------------------------------------------
+185,185 
+null 225,225 
+null null 
+---------------------------------------------------------------------
+26,26 
+null null 
+---------------------------------------------------------------------
+107,107 
+67,67 227,227 
+null null null null 
+---------------------------------------------------------------------
+68,68 
+null null 
+---------------------------------------------------------------------
+109,109 
+null null 
+---------------------------------------------------------------------
+70,70 
+30,30 150,150 
+null null null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+232,232 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+34,34 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+116,116 
+null 196,196 
+null null 
+---------------------------------------------------------------------
+117,117 
+37,37 157,157 
+null null null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+
+
+Array:   
+160,160 
+120,120 200,200 
+null null null null 
+---------------------------------------------------------------------
+101,101 
+41,41 161,161 
+1,1 61,61 121,121 221,221 
+null null null null null null null null 
+---------------------------------------------------------------------
+202,202 
+62,62 222,222 
+null 182,182 null null 
+null null 
+---------------------------------------------------------------------
+143,143 
+103,103 163,163 
+83,83 null null 183,183 
+null null null null 
+---------------------------------------------------------------------
+164,164 
+4,4 224,224 
+null null null null 
+---------------------------------------------------------------------
+225,225 
+185,185 245,245 
+125,125 null null null 
+null null 
+---------------------------------------------------------------------
+26,26 
+null 166,166 
+null null 
+---------------------------------------------------------------------
+107,107 
+67,67 227,227 
+null null null null 
+---------------------------------------------------------------------
+68,68 
+8,8 null 
+null null 
+---------------------------------------------------------------------
+109,109 
+49,49 129,129 
+null null null null 
+---------------------------------------------------------------------
+50,50 
+30,30 130,130 
+10,10 null 70,70 150,150 
+null null null null null 250,250 
+null null 
+---------------------------------------------------------------------
+211,211 
+null null 
+---------------------------------------------------------------------
+232,232 
+212,212 null 
+null null 
+---------------------------------------------------------------------
+53,53 
+null null 
+---------------------------------------------------------------------
+134,134 
+34,34 174,174 
+null null null null 
+---------------------------------------------------------------------
+215,215 
+null null 
+---------------------------------------------------------------------
+136,136 
+116,116 196,196 
+null null null null 
+---------------------------------------------------------------------
+117,117 
+37,37 157,157 
+null null null null 
+---------------------------------------------------------------------
+38,38 
+null null 
+---------------------------------------------------------------------
+119,119 
+99,99 null 
+null null 
+---------------------------------------------------------------------
+
+
+Array:   
+160,160 
+120,120 200,200 
+null null null null 
+---------------------------------------------------------------------
+41,41 
+1,1 121,121 
+null null null 161,161 
+null null 
+---------------------------------------------------------------------
+202,202 
+null null 
+---------------------------------------------------------------------
+83,83 
+null 163,163 
+null null 
+---------------------------------------------------------------------
+4,4 
+null 164,164 
+null null 
+---------------------------------------------------------------------
+125,125 
+null 245,245 
+null null 
+---------------------------------------------------------------------
+166,166 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+8,8 
+null null 
+---------------------------------------------------------------------
+49,49 
+null 129,129 
+null null 
+---------------------------------------------------------------------
+130,130 
+10,10 250,250 
+null 50,50 null null 
+null null 
+---------------------------------------------------------------------
+211,211 
+null null 
+---------------------------------------------------------------------
+212,212 
+null null 
+---------------------------------------------------------------------
+53,53 
+null null 
+---------------------------------------------------------------------
+174,174 
+134,134 null 
+null null 
+---------------------------------------------------------------------
+215,215 
+null null 
+---------------------------------------------------------------------
+136,136 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+101,101 
+61,61 221,221 
+null null null null 
+---------------------------------------------------------------------
+182,182 
+62,62 222,222 
+null null null null 
+---------------------------------------------------------------------
+143,143 
+103,103 183,183 
+null null null null 
+---------------------------------------------------------------------
+224,224 
+null null 
+---------------------------------------------------------------------
+185,185 
+null 225,225 
+null null 
+---------------------------------------------------------------------
+26,26 
+null null 
+---------------------------------------------------------------------
+107,107 
+67,67 227,227 
+null null null null 
+---------------------------------------------------------------------
+68,68 
+null null 
+---------------------------------------------------------------------
+109,109 
+null null 
+---------------------------------------------------------------------
+70,70 
+30,30 150,150 
+null null null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+232,232 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+34,34 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+116,116 
+null 196,196 
+null null 
+---------------------------------------------------------------------
+117,117 
+37,37 157,157 
+null null null null 
+---------------------------------------------------------------------
+38,38 
+null null 
+---------------------------------------------------------------------
+null 
+---------------------------------------------------------------------
+
+
+Array:   
+160,160 
+120,120 200,200 
+null null null null 
+---------------------------------------------------------------------
+101,101 
+41,41 161,161 
+1,1 61,61 121,121 221,221 
+null null null null null null null null 
+---------------------------------------------------------------------
+202,202 
+62,62 222,222 
+null 182,182 null null 
+null null 
+---------------------------------------------------------------------
+143,143 
+103,103 163,163 
+83,83 null null 183,183 
+null null null null 
+---------------------------------------------------------------------
+164,164 
+4,4 224,224 
+null null null null 
+---------------------------------------------------------------------
+225,225 
+185,185 245,245 
+125,125 null null null 
+null null 
+---------------------------------------------------------------------
+26,26 
+null 166,166 
+null null 
+---------------------------------------------------------------------
+107,107 
+67,67 227,227 
+null null null null 
+---------------------------------------------------------------------
+68,68 
+8,8 null 
+null null 
+---------------------------------------------------------------------
+109,109 
+49,49 129,129 
+null null null null 
+---------------------------------------------------------------------
+50,50 
+30,30 130,130 
+10,10 null 70,70 150,150 
+null null null null null 250,250 
+null null 
+---------------------------------------------------------------------
+211,211 
+null null 
+---------------------------------------------------------------------
+232,232 
+212,212 null 
+null null 
+---------------------------------------------------------------------
+53,53 
+null null 
+---------------------------------------------------------------------
+134,134 
+34,34 174,174 
+null null null null 
+---------------------------------------------------------------------
+215,215 
+null null 
+---------------------------------------------------------------------
+136,136 
+116,116 196,196 
+null null null null 
+---------------------------------------------------------------------
+117,117 
+37,37 157,157 
+null null null null 
+---------------------------------------------------------------------
+38,38 
+null null 
+---------------------------------------------------------------------
+119,119 
+99,99 null 
+null null 
+---------------------------------------------------------------------
+
+addCostumer: SUCCESS
+getPhone: 190
+addCostumer: SUCCESS
+isMember: True
+getExpenses: DOESNT_EXISTS
+getPlace: column=4, hight=0
+addPrize: INVALID_INPUT
+makeMember: ALREADY_EXISTS
+addPrize: SUCCESS
+isMember: True
+addPrize: SUCCESS
+addCostumer: INVALID_INPUT
+addCostumer: SUCCESS
+putOnTop: SUCCESS
+getExpenses: -148
+addPrize: SUCCESS
+addCostumer: ALREADY_EXISTS
+putOnTop: SUCCESS
+buyRecord: SUCCESS
+makeMember: SUCCESS
+makeMember: SUCCESS
+getPhone: 102
+makeMember: ALREADY_EXISTS
+putOnTop: INVALID_INPUT
+isMember: False
+getPhone: 120
+addCostumer: SUCCESS
+getPlace: INVALID_INPUT
+isMember: True
+addPrize: SUCCESS
+getExpenses: DOESNT_EXISTS
+addCostumer: ALREADY_EXISTS
+buyRecord: DOESNT_EXISTS
+isMember: DOESNT_EXISTS
+addPrize: SUCCESS
+buyRecord: SUCCESS
+makeMember: SUCCESS
+putOnTop: SUCCESS
+getPlace: column=2, hight=0
+putOnTop: FAILURE
+getPhone: 13
+isMember: True
+buyRecord: SUCCESS
+getExpenses: DOESNT_EXISTS
+buyRecord: SUCCESS
+makeMember: ALREADY_EXISTS
+isMember: True
+getPlace: column=0, hight=0
+isMember: False
+getExpenses: 373
+makeMember: INVALID_INPUT
+addCostumer: SUCCESS
+makeMember: ALREADY_EXISTS
+addPrize: SUCCESS
+isMember: False
+buyRecord: SUCCESS
+addCostumer: SUCCESS
+getExpenses: -988
+makeMember: DOESNT_EXISTS
+getExpenses: DOESNT_EXISTS
+buyRecord: SUCCESS
+getPhone: 68
+addPrize: SUCCESS
+buyRecord: DOESNT_EXISTS
+isMember: False
+getPhone: INVALID_INPUT
+buyRecord: DOESNT_EXISTS
+getPlace: DOESNT_EXISTS
+getExpenses: DOESNT_EXISTS
+addCostumer: SUCCESS
+isMember: True
+addPrize: SUCCESS
+addCostumer: SUCCESS
+buyRecord: SUCCESS
+putOnTop: DOESNT_EXISTS
+getPlace: column=4, hight=51
+addPrize: SUCCESS
+getExpenses: -382
+isMember: True
+addCostumer: ALREADY_EXISTS
+getPlace: column=0, hight=0
+putOnTop: FAILURE
+putOnTop: FAILURE
+isMember: True
+getPhone: 190
+getPlace: column=4, hight=0
+isMember: DOESNT_EXISTS
+addPrize: SUCCESS
+makeMember: DOESNT_EXISTS
+addCostumer: SUCCESS
+makeMember: ALREADY_EXISTS
+addPrize: INVALID_INPUT
+addCostumer: ALREADY_EXISTS
+addPrize: SUCCESS
+isMember: True
+addCostumer: ALREADY_EXISTS
+addCostumer: SUCCESS
+addCostumer: SUCCESS
+isMember: True
+putOnTop: FAILURE
+buyRecord: SUCCESS
+isMember: False
+isMember: True
+getExpenses: INVALID_INPUT
+makeMember: ALREADY_EXISTS
+getExpenses: -270
+getPhone: 168
+addPrize: SUCCESS
+addCostumer: SUCCESS
+getExpenses: DOESNT_EXISTS
+addPrize: INVALID_INPUT
+getPhone: 71
+getPhone: 145
+getPhone: 87
+buyRecord: SUCCESS
+addPrize: SUCCESS
+addCostumer: SUCCESS
+putOnTop: FAILURE
+isMember: False
+isMember: False
+putOnTop: SUCCESS
+getExpenses: DOESNT_EXISTS
+isMember: True
+getExpenses: DOESNT_EXISTS
+makeMember: SUCCESS
+getPlace: column=4, hight=31
+addPrize: SUCCESS
+getPhone: 210
+buyRecord: SUCCESS
+getExpenses: -916
+putOnTop: SUCCESS
+getPlace: column=4, hight=65
+buyRecord: DOESNT_EXISTS
+getExpenses: DOESNT_EXISTS
+addCostumer: SUCCESS
+addPrize: SUCCESS
+buyRecord: SUCCESS
+addPrize: SUCCESS
+putOnTop: DOESNT_EXISTS
+isMember: False
+putOnTop: FAILURE
+getPlace: column=4, hight=67
+getPhone: 94
+getExpenses: DOESNT_EXISTS
+addCostumer: SUCCESS
+addCostumer: SUCCESS
+getExpenses: DOESNT_EXISTS
+addPrize: SUCCESS
+getPhone: 141
+addPrize: SUCCESS
+makeMember: SUCCESS
+buyRecord: SUCCESS
+addPrize: SUCCESS
+isMember: False
+isMember: True
+addPrize: SUCCESS
+buyRecord: INVALID_INPUT
+getPlace: column=4, hight=65
+buyRecord: SUCCESS
+addPrize: SUCCESS
+makeMember: INVALID_INPUT
+addPrize: SUCCESS
+addPrize: SUCCESS
+buyRecord: SUCCESS
+isMember: True
+getPhone: 241
+getExpenses: -1232
+addCostumer: SUCCESS
+addPrize: SUCCESS
+isMember: True
+getPlace: column=4, hight=65
+addCostumer: ALREADY_EXISTS
+addPrize: SUCCESS
+getPhone: 132
+addCostumer: ALREADY_EXISTS
+addPrize: SUCCESS
+getPhone: 210
+getPlace: column=4, hight=73
+getExpenses: -739
+putOnTop: FAILURE
+buyRecord: SUCCESS
+makeMember: SUCCESS
+addCostumer: SUCCESS
+putOnTop: INVALID_INPUT
+isMember: False
+isMember: True
+makeMember: DOESNT_EXISTS
+makeMember: ALREADY_EXISTS
+makeMember: SUCCESS
+getExpenses: INVALID_INPUT
+addPrize: INVALID_INPUT
+getPhone: 179
+buyRecord: SUCCESS
+getPhone: 234
+getPhone: DOESNT_EXISTS
+makeMember: INVALID_INPUT
+addCostumer: SUCCESS
+getPlace: DOESNT_EXISTS
+isMember: False
+getPlace: DOESNT_EXISTS
+getExpenses: -1275
+getExpenses: -16
+isMember: False
+getPlace: DOESNT_EXISTS
+getPhone: 68
+addCostumer: SUCCESS
+addPrize: SUCCESS
+addCostumer: INVALID_INPUT
+buyRecord: SUCCESS
+getPhone: INVALID_INPUT
+addPrize: SUCCESS
+getPhone: 141
+buyRecord: SUCCESS
+buyRecord: DOESNT_EXISTS
+buyRecord: SUCCESS
+getPhone: 216
+getPlace: DOESNT_EXISTS
+addCostumer: SUCCESS
+getExpenses: 208
+addCostumer: ALREADY_EXISTS
+addPrize: SUCCESS
+putOnTop: FAILURE
+buyRecord: SUCCESS
+getExpenses: DOESNT_EXISTS
+getPhone: 44
+getPhone: 110
+putOnTop: DOESNT_EXISTS
+getPlace: column=4, hight=67
+isMember: True
+buyRecord: SUCCESS
+getExpenses: DOESNT_EXISTS
+getPlace: INVALID_INPUT
+addPrize: SUCCESS
+isMember: True
+isMember: False
+isMember: DOESNT_EXISTS
+getExpenses: DOESNT_EXISTS
+getExpenses: DOESNT_EXISTS
+getPlace: column=4, hight=67
+buyRecord: SUCCESS
+addCostumer: SUCCESS
+putOnTop: FAILURE
+getExpenses: DOESNT_EXISTS
+buyRecord: SUCCESS
+makeMember: ALREADY_EXISTS
+makeMember: ALREADY_EXISTS
+putOnTop: INVALID_INPUT
+buyRecord: DOESNT_EXISTS
+getPlace: DOESNT_EXISTS
+buyRecord: SUCCESS
+addPrize: SUCCESS
+addCostumer: SUCCESS
+getExpenses: DOESNT_EXISTS
+addCostumer: ALREADY_EXISTS
+isMember: True
+makeMember: SUCCESS
+addCostumer: SUCCESS
+getPlace: INVALID_INPUT
+getPhone: 144
+getExpenses: DOESNT_EXISTS
+isMember: False
+getPhone: 102
+getExpenses: -332
+getExpenses: DOESNT_EXISTS
+getExpenses: 250
+addPrize: INVALID_INPUT
+buyRecord: DOESNT_EXISTS
+putOnTop: FAILURE
+buyRecord: SUCCESS
+getExpenses: DOESNT_EXISTS
+makeMember: ALREADY_EXISTS
+getPlace: column=4, hight=67
+buyRecord: SUCCESS
+putOnTop: INVALID_INPUT
+getPlace: DOESNT_EXISTS
+buyRecord: SUCCESS
+getExpenses: 429
+addPrize: SUCCESS
+makeMember: INVALID_INPUT
+isMember: True
+getPlace: column=4, hight=67
+buyRecord: SUCCESS
+isMember: DOESNT_EXISTS
+addCostumer: SUCCESS
+getExpenses: DOESNT_EXISTS
+addPrize: SUCCESS
+isMember: True
+getPhone: 133
+putOnTop: FAILURE
+getExpenses: DOESNT_EXISTS
+addPrize: SUCCESS
+addPrize: SUCCESS
+addPrize: SUCCESS
+addCostumer: INVALID_INPUT
+buyRecord: DOESNT_EXISTS
+getExpenses: DOESNT_EXISTS
+addCostumer: ALREADY_EXISTS
+getPlace: column=4, hight=20
+addCostumer: SUCCESS
+addCostumer: SUCCESS
+putOnTop: FAILURE
+buyRecord: SUCCESS
+getExpenses: DOESNT_EXISTS
+getPlace: column=4, hight=65
+getPhone: INVALID_INPUT
+makeMember: INVALID_INPUT
+getExpenses: INVALID_INPUT
+buyRecord: SUCCESS
+makeMember: ALREADY_EXISTS
+getPhone: 219
+getPhone: DOESNT_EXISTS
+addPrize: SUCCESS
+makeMember: ALREADY_EXISTS
+addPrize: SUCCESS
+buyRecord: SUCCESS
+makeMember: SUCCESS
+putOnTop: FAILURE
+getExpenses: 319
+putOnTop: FAILURE
+putOnTop: FAILURE
+getExpenses: INVALID_INPUT
+isMember: False
+getPlace: column=4, hight=67
+putOnTop: FAILURE
+buyRecord: SUCCESS
+getPlace: column=4, hight=51
+isMember: False
+addPrize: SUCCESS
+getPhone: 58
+isMember: True
+isMember: INVALID_INPUT
+addPrize: SUCCESS
+addCostumer: ALREADY_EXISTS
+getPlace: column=4, hight=67
+addPrize: SUCCESS
+getPlace: INVALID_INPUT
+addCostumer: SUCCESS
+getPhone: DOESNT_EXISTS
+getPlace: column=4, hight=67
+getPlace: DOESNT_EXISTS
+addPrize: SUCCESS
+getPhone: INVALID_INPUT
+getPhone: 94
+buyRecord: INVALID_INPUT
+isMember: False
+isMember: False
+getExpenses: DOESNT_EXISTS
+addPrize: SUCCESS
+getPhone: 5
+addCostumer: SUCCESS
+isMember: True
+addCostumer: ALREADY_EXISTS
+addPrize: SUCCESS
+addPrize: SUCCESS
+isMember: True
+getExpenses: 391
+isMember: INVALID_INPUT
+putOnTop: FAILURE
+addPrize: SUCCESS
+buyRecord: SUCCESS
+isMember: True
+addCostumer: ALREADY_EXISTS
+getPlace: DOESNT_EXISTS
+isMember: True
+getPhone: 16
+addPrize: SUCCESS
+addCostumer: ALREADY_EXISTS
+isMember: False
+getPhone: 25
+addPrize: SUCCESS
+putOnTop: FAILURE
+getPhone: DOESNT_EXISTS
+getExpenses: DOESNT_EXISTS
+getExpenses: INVALID_INPUT
+getPlace: column=4, hight=67
+addCostumer: ALREADY_EXISTS
+addPrize: SUCCESS
+buyRecord: DOESNT_EXISTS
+addPrize: SUCCESS
+getPlace: column=4, hight=20
+addCostumer: SUCCESS
+getExpenses: -517
+isMember: False
+putOnTop: DOESNT_EXISTS
+getPhone: 183
+getPhone: 15
+isMember: False
+makeMember: ALREADY_EXISTS
+getPlace: column=4, hight=51
+makeMember: SUCCESS
+makeMember: ALREADY_EXISTS
+getPlace: column=4, hight=67
+buyRecord: INVALID_INPUT
+getPhone: 145
+isMember: True
+makeMember: ALREADY_EXISTS
+putOnTop: FAILURE
+getPlace: DOESNT_EXISTS
+getExpenses: DOESNT_EXISTS
+buyRecord: SUCCESS
+putOnTop: DOESNT_EXISTS
+getPhone: 220
+buyRecord: INVALID_INPUT
+getPhone: 133
+getExpenses: DOESNT_EXISTS
+getPlace: column=4, hight=67
+addCostumer: ALREADY_EXISTS
+getExpenses: DOESNT_EXISTS
+addCostumer: SUCCESS
+putOnTop: FAILURE
+isMember: INVALID_INPUT
+getExpenses: -866
+isMember: True
+addCostumer: ALREADY_EXISTS
+getPhone: 201
+getExpenses: 172
+buyRecord: SUCCESS
+getPhone: DOESNT_EXISTS
+isMember: False

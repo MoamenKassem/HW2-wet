@@ -27,7 +27,6 @@ public:
     double calcExtra(int key);
     void leftRoll(T* node);
     void rightRoll(T* node);
-    void printLevelOrder();
     void preOrderPathReset(Node<Customer *>* node);
 };
 
@@ -99,6 +98,9 @@ StatusType AVL_Tree<T>::searchAndAdd(T* toInsert)
         this->numOfNodes++;
         return StatusType::SUCCESS;
     }
+
+    toInsert->setExtra(-calcExtra(toInsert->content->getID()));
+    //rolls
 
     int oldHeight = currentFatherNodePtr->height;
     while(oldHeight != currentFatherNodePtr->updateHeight())
@@ -187,6 +189,7 @@ StatusType AVL_Tree<T>::searchAndDelete(int key)
                     root = currentNodePtr->rightSon;
                     currentNodePtr->rightSon->father = nullptr;
                     numOfNodes--;
+                    currentNodePtr->rightSon->setExtra(currentNodePtr->getExtra());
                     delete currentNodePtr;
                     return StatusType::SUCCESS;
                 }
@@ -195,11 +198,13 @@ StatusType AVL_Tree<T>::searchAndDelete(int key)
                 {
                     currentNodePtr->father->rightSon = currentNodePtr->rightSon;
                     currentNodePtr->rightSon->father = currentNodePtr->father;
+                    currentNodePtr->rightSon->setExtra(currentNodePtr->getExtra());
                     delete currentNodePtr;
                     break;
                 }
                 currentNodePtr->father->leftSon = currentNodePtr->rightSon;
                 currentNodePtr->rightSon->father = currentNodePtr->father;
+                currentNodePtr->rightSon->setExtra(currentNodePtr->getExtra());
                 delete currentNodePtr;
                 break;
             }
@@ -211,6 +216,7 @@ StatusType AVL_Tree<T>::searchAndDelete(int key)
                     root = currentNodePtr->leftSon;
                     currentNodePtr->leftSon->father = nullptr;
                     numOfNodes--;
+                    currentNodePtr->leftSon->setExtra(currentNodePtr->getExtra());
                     delete currentNodePtr;
                     return StatusType::SUCCESS;
                 }
@@ -219,11 +225,13 @@ StatusType AVL_Tree<T>::searchAndDelete(int key)
                 {
                     currentNodePtr->father->rightSon = currentNodePtr->leftSon;
                     currentNodePtr->leftSon->father = currentNodePtr->father;
+                    currentNodePtr->leftSon->setExtra(currentNodePtr->getExtra());
                     delete currentNodePtr;
                     break;
                 }
                 currentNodePtr->father->leftSon = currentNodePtr->leftSon;
                 currentNodePtr->leftSon->father = currentNodePtr->father;
+                currentNodePtr->leftSon->setExtra(currentNodePtr->getExtra());
                 delete currentNodePtr;
                 break;
             }
@@ -238,6 +246,10 @@ StatusType AVL_Tree<T>::searchAndDelete(int key)
             {
                 root = nodeToSwitch;
             }
+
+            currentNodePtr->rightSon->setExtra(-(currentNodePtr->getExtra() + nodeToSwitch->getExtra()));
+            currentNodePtr->leftSon->setExtra(-(currentNodePtr->getExtra() + nodeToSwitch->getExtra()));
+
             nodeToSwitch->swapNodes(currentNodePtr);
             if(currentNodePtr->father->leftSon == currentNodePtr)
             {
@@ -384,7 +396,7 @@ void AVL_Tree<T>::leftRoll(T* node)
     double a = node->getExtra();
 
     newHead->setExtra(a);
-    node->setExtra(-b);
+    node->setExtra(-node->getExtra()-b);
 
     if (tempNode!= nullptr)
     {
@@ -433,7 +445,7 @@ void AVL_Tree<T>::rightRoll(T* node)
     double b = node->getExtra();
 
     newHead->setExtra(b);
-    node->setExtra(-a);
+    node->setExtra(-node->getExtra()-a);
     if (tempNode!= nullptr)
     {
         tempNode->setExtra(a);
@@ -527,29 +539,6 @@ double AVL_Tree<T>::calcExtra(int key) {
         }
     }
     return -1;
-}
-
-
-template<class T>
-void AVL_Tree<T>::printLevelOrder() {
-    std::queue<T*> q;
-    q.push(root);
-    while (!q.empty()) {
-        int size = q.size();
-        for (int i = 0; i < size; i++) {
-            T* curr = q.front();
-            q.pop();
-            if (curr != nullptr) {
-                std::cout << curr->content->getID() << "," << curr->key << " ";
-                q.push(curr->leftSon);
-                q.push(curr->rightSon);
-            } else {
-                std::cout << "null ";
-            }
-        }
-        std::cout << std::endl;
-    }
-    std::cout << "---------------------------------------------------------------------" << std::endl;
 }
 
 

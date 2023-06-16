@@ -28,8 +28,6 @@ public:
     Customer* Search(int value);
     void InsertTree(AVL_Tree<Node<Customer*>> tree);
     void InsertNode(Node<Customer*>* node);
-    void printArr(AVL_Tree<Node<Customer*>>* toPrintArr,int size) const;
-    void printArr() const;
 };
 
 /*

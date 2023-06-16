@@ -35,23 +35,6 @@ int reversedTree::calcHeight(int index)
     return heightExtra[returnIndex] + heightExtra[index];
 }
 
-void reversedTree::printArr() const
-{
-    std::cout << "\n" << "TreeSize" << ":   " << std::endl;
-    for (int i = 0; i < size; ++i) {
-        std::cout << TreeSize[i] << ",";
-    }
-    std::cout << "\n" << "parentIndex" << ":   " << std::endl;
-    for (int i = 0; i < size; ++i) {
-        std::cout << parentIndex[i] << ",";
-    }
-    /*std::cout << "\n" << "data" << ":   " << std::endl;
-    for (int i = 0; i < size; ++i) {
-        std::cout << data[i]->numOfRecords << " / "<<data[i]->r_id << ",";
-    }*/
-    std::cout << std::endl;
-}
-
 void reversedTree::initialize(int arrSize)
 {
     for (int i = 0; i < arrSize; ++i) {
@@ -59,6 +42,7 @@ void reversedTree::initialize(int arrSize)
         TreeSize[i] = 0;
         heightExtra[i] = 0;
         nodeColumn[i] = i;
+        topContainer[i] = -1;
     }
 }
 
@@ -69,6 +53,7 @@ reversedTree::reversedTree(int size):size(size)
     data = new Record*[size];
     heightExtra = new int[size];
     nodeColumn = new int [size];
+    topContainer = new int [size];
 }
 
 int reversedTree::find(int index)
@@ -90,6 +75,7 @@ void reversedTree::makeset(int index,Record* value)
 {
     TreeSize[index] = 1;
     data[index] = value;
+    topContainer[index] = index;
 }
 
 StatusType reversedTree::groupUnion(int Top, int Bottom)
@@ -103,7 +89,7 @@ StatusType reversedTree::groupUnion(int Top, int Bottom)
 
     if(TreeSize[head1] > TreeSize[head2]){
 
-        heightExtra[head1]+=calcHeight(head2) + data[head2]->RecordsAmount;
+        heightExtra[head1]+=calcHeight(topContainer[head2]) + data[topContainer[head2]]->RecordsAmount;
         heightExtra[head2]-=heightExtra[head1];
 
         parentIndex[head2] = head1;
@@ -111,11 +97,13 @@ StatusType reversedTree::groupUnion(int Top, int Bottom)
 
         return SUCCESS;
     }
-    parentIndex[head1] = head2;
+
     TreeSize[head2] = TreeSize[head1]+TreeSize[head2];
 
-    heightExtra[head1]+=calcHeight(head2)-heightExtra[head2] + data[head2]->RecordsAmount;
+    heightExtra[head1]+=calcHeight(topContainer[head2])-heightExtra[head2] + data[topContainer[head2]]->RecordsAmount;
 
+    parentIndex[head1] = head2;
+    topContainer[head2] = topContainer[head1];
     return SUCCESS;
 }
 
