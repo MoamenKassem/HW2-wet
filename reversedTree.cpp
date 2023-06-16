@@ -4,6 +4,28 @@
 
 #include <iostream>
 #include "reversedTree.h"
+/*
+void reversedTree::printArr() const
+{
+    std::cout << "\n" << "TreeSize" << ":   " << std::endl;
+    for (int i = 0; i < size; ++i) {
+        std::cout << TreeSize[i] << ",";
+    }
+    std::cout << "\n" << "parentIndex" << ":   " << std::endl;
+    for (int i = 0; i < size; ++i) {
+        std::cout << parentIndex[i] << ",";
+    }
+    std::cout << "\n" << "TopContainer" << ":   " << std::endl;
+    for (int i = 0; i < size; ++i) {
+        std::cout << topContainer[i] << ",";
+    }
+    std::cout << "\n" << "Extra" << ":   " << std::endl;
+    for (int i = 0; i < size; ++i) {
+        std::cout << heightExtra[i] << ",";
+    }
+    std::cout << std::endl;
+}
+*/
 
 int reversedTree::getColumn(int index)
 {
@@ -15,22 +37,23 @@ int reversedTree::calcHeight(int index)
     if(parentIndex[index] == -1)
         return heightExtra[index];
 
-    int sumR=0,toSubtract=0,temp2=0,returnIndex=index;
-    int temp = index;
+    int sumR=0,toSubtract=0,previousExtra=0,returnIndex=index,oldParent =-1;
+    int inputIndex = index;
     while(parentIndex[index] != -1)
     {
         sumR += heightExtra[index];
         index = parentIndex[index];
     }
 
-    while(parentIndex[temp] != -1)
+    while(parentIndex[inputIndex] != -1)
     {
-        parentIndex[temp] = index;
+        previousExtra = heightExtra[inputIndex];
+        oldParent = parentIndex[inputIndex];
 
-        temp2 = heightExtra[temp];
-        heightExtra[temp] = sumR - toSubtract;
-        temp = parentIndex[temp];
-        toSubtract += temp2;
+        heightExtra[inputIndex] = sumR - toSubtract;
+        parentIndex[inputIndex] = index;
+        inputIndex = oldParent;
+        toSubtract += previousExtra;
     }
     return heightExtra[returnIndex] + heightExtra[index];
 }
@@ -58,6 +81,7 @@ reversedTree::reversedTree(int size):size(size)
 
 int reversedTree::find(int index)
 {
+    calcHeight(index);
     int temp = index;
     while(parentIndex[index] != -1)
     {
@@ -106,7 +130,3 @@ StatusType reversedTree::groupUnion(int Top, int Bottom)
     topContainer[head2] = topContainer[head1];
     return SUCCESS;
 }
-
-
-
-

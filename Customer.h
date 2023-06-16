@@ -20,7 +20,7 @@ public:
     bool getMembership() const{return Membership;};
     void setMembership(const bool state){ this->Membership=state;};
     int getAccumulatedAmount() const{return accumulatedAmount;};
-    void accumulatedAmountInc(int value){accumulatedAmount+=value;};
+    void accumulatedAmountInc(int value){accumulatedAmount += value;};
 };
 
 // stored in an array

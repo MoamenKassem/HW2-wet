@@ -75,7 +75,7 @@ isMember: True
 addPrize: SUCCESS
 makeMember: SUCCESS
 getPlace: column=2, hight=23
-getPlace: column=2, hight=13
+getPlace: column=2, hight=36
 getPhone: 98
 putOnTop: FAILURE
 getExpenses: DOESNT_EXISTS

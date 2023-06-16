@@ -24,6 +24,7 @@ StatusType RecordsCompany::newMonth(int *records_stocks, int number_of_records)
         Record *record = new Record(i,records_stocks[i]);
         recordsTree->makeset(i,record);
     }
+    Members.preOrderPathReset(Members.getRoot());
     for (int i = 0; i < customersHash.getSize() ; ++i) {
         customersHash[i].preOrderPathReset(customersHash[i].getRoot());
     }
@@ -87,7 +88,7 @@ StatusType RecordsCompany::buyRecord(int c_id, int r_id)
         recordsTree->getData()[r_id]->purchaseCountInc();
         return SUCCESS;
     }
-    VipCustomer->accumulatedAmountInc(100+recordsTree->getData()[r_id]->getPurchaseCount());
+    VipCustomer->accumulatedAmountInc(100 + recordsTree->getData()[r_id]->getPurchaseCount());
     recordsTree->getData()[r_id]->purchaseCountInc();
     return SUCCESS;
 }
@@ -119,6 +120,7 @@ StatusType RecordsCompany::putOnTop(int r_id1, int r_id2)
     if(r_id1 >=recordsTree->getSize() || r_id2 >= recordsTree->getSize())
         return StatusType::DOESNT_EXISTS;
     StatusType status = recordsTree->groupUnion(r_id1,r_id2);
+    //recordsTree->printArr();
     if (status == FAILURE)
         return status;
 
@@ -131,6 +133,7 @@ StatusType RecordsCompany::getPlace(int r_id, int *column, int *hight)
         return StatusType::INVALID_INPUT;
     if(r_id >=recordsTree->getSize())
         return StatusType::DOESNT_EXISTS;
+    //recordsTree->printArr();
     *hight = recordsTree->calcHeight(r_id);
     *column = recordsTree->getColumn(r_id);
     return SUCCESS;

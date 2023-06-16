@@ -26,6 +26,7 @@ public:
     void initialize(int size);
     int calcHeight(int index);
     int getColumn(int index);
+    //void printArr() const;
 };
 
 

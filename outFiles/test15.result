@@ -65,7 +65,7 @@ buyRecord: SUCCESS
 isMember: DOESNT_EXISTS
 addPrize: INVALID_INPUT
 addCostumer: SUCCESS
-getPlace: column=8, hight=25
+getPlace: column=8, hight=40
 getExpenses: DOESNT_EXISTS
 buyRecord: SUCCESS
 makeMember: SUCCESS

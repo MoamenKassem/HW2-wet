@@ -40,6 +40,7 @@ void AVL_Tree<T>::preOrderPathReset(Node<Customer *>* node)
     preOrderPathReset(node->rightSon);
 
     node->content->accumulatedAmountInc(-(node->content->getAccumulatedAmount()));
+    node->setExtra(-node->getExtra());
 }
 
 
@@ -494,10 +495,17 @@ void AVL_Tree<T>::changeExtra(int endNode,double amount) {
     bool firstLeft = false;
     while (ptr) {
         if (endNode == ptr->key) {
-            if (ptr->rightSon != nullptr)
-                ptr->rightSon->setExtra(-amount);
-            if (!firstLeft)
+            if (!firstRight)
+            {
                 ptr->setExtra(-amount);
+                if (ptr->leftSon != nullptr)
+                {
+                    ptr->leftSon->setExtra(amount);
+                }
+            }
+
+            if (!firstLeft && ptr->leftSon != nullptr)
+                ptr->leftSon->setExtra(amount);
             return;
         }
         if (endNode < ptr->key) {
