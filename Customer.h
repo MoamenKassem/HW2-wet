@@ -15,6 +15,7 @@ int accumulatedAmount; // for members
 
 public:
     Customer(int c_id, int phoneNum):c_id(c_id),phoneNum(phoneNum),Membership(0),numOfOrders(0){};
+    ~Customer()= default;
     int getID() const{return this->c_id;};
     int getPhone() const {return phoneNum;};
     bool getMembership() const{return Membership;};
@@ -30,6 +31,7 @@ public:
     int RecordsAmount;
     int purchaseCount;
     Record():r_id(0),RecordsAmount(0),purchaseCount(0){};
+    ~Record() = default;
     Record(int r_id,int recordsAmount):r_id(r_id),RecordsAmount(recordsAmount),purchaseCount(0){};
     void purchaseCountInc(){purchaseCount++;};
     int getPurchaseCount() const{return purchaseCount;};

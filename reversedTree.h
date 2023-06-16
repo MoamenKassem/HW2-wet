@@ -17,7 +17,7 @@ class reversedTree {
 
 public:
     reversedTree(int size);
-    ~reversedTree()=default;
+    ~reversedTree();
     int getSize() const{return size;};
     int find(int index);
     void makeset(int index,Record* value);

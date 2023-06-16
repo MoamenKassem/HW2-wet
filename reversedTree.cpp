@@ -27,6 +27,19 @@ void reversedTree::printArr() const
 }
 */
 
+reversedTree::~reversedTree()
+{
+    delete[] TreeSize;
+    delete[] parentIndex;
+    for (int i = 0; i < size; ++i) {
+        delete data[i];
+    }
+    delete[] data;
+    delete[] heightExtra;
+    delete[] nodeColumn;
+    delete[] topContainer;
+}
+
 int reversedTree::getColumn(int index)
 {
     return nodeColumn[find(index)];

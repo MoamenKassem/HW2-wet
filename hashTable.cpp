@@ -8,6 +8,13 @@
 hashTable::hashTable():max_size(10),current_size(0)
 {
     array = new AVL_Tree<Node<Customer*>>[10];
+    if(array == nullptr)
+        throw StatusType::ALLOCATION_ERROR;
+}
+
+hashTable::~hashTable()
+{
+    delete[] array;
 }
 
 void hashTable::check_full()
@@ -15,6 +22,8 @@ void hashTable::check_full()
     if (current_size < max_size)
         return;
     AVL_Tree<Node<Customer*>>* expandedArr = new AVL_Tree<Node<Customer*>>[max_size*2];
+    if(expandedArr == nullptr)
+        throw StatusType::ALLOCATION_ERROR;
     AVL_Tree<Node<Customer*>>* tempArr = array;
     array = expandedArr;
     this->max_size *= 2;
@@ -23,32 +32,8 @@ void hashTable::check_full()
     {
         InsertTree(tempArr[i]);
     }
-    /*for(int i=0;i<max_size;i++)
-    {
-        deleteTree(tempArr[i].getRoot());
-        tempArr[i].changeRoot(nullptr);
-    }*/
+    delete[] tempArr;
     array = expandedArr;
-}
-
-void hashTable::check_quarter_full() {
-    if (current_size > max_size/4)
-        return;
-    AVL_Tree<Node<Customer*>>* shortenedArr = new AVL_Tree<Node<Customer*>>[max_size/2];
-    AVL_Tree<Node<Customer*>>* tempArr = array;
-    array = shortenedArr;
-    this->max_size /= 2;
-    current_size = 0;
-    for(int i=0;i<max_size*2;i++)
-    {
-        InsertTree(tempArr[i]);
-    }
-    /*for(int i=0;i<max_size;i++)
-    {
-        deleteTree(tempArr[i].getRoot());
-        tempArr[i].changeRoot(nullptr);
-    }*/
-    array = shortenedArr;
 }
 
 int hashTable::hashFunction(int value) const
@@ -59,6 +44,8 @@ int hashTable::hashFunction(int value) const
 StatusType_t hashTable::Insert(Customer* customer)
 {
     Node<Customer*>* node = new Node<Customer*>(customer->getID(),customer, nullptr);
+    if(node == nullptr)
+        throw StatusType::ALLOCATION_ERROR;
     int index = hashFunction(customer->getID());
     if(array[index].getRoot() == nullptr)
         current_size++;
@@ -74,7 +61,7 @@ StatusType_t hashTable::Insert(Customer* customer)
     return status;
 }
 
-void hashTable::InsertTree(AVL_Tree<Node<Customer*>> tree)
+void hashTable::InsertTree(AVL_Tree<Node<Customer*>>& tree)
 {
     InsertNode(tree.getRoot());
 }
@@ -89,19 +76,10 @@ void hashTable::InsertNode(Node<Customer*>* node)
     this->Insert(node->content);
 }
 
-void hashTable::Delete(int key) // c_id for the customer
-{
-    int index = hashFunction(key);
-    array[index].searchAndDelete(key);
-    if(array[index].getRoot() == nullptr)
-        current_size--;
-    check_quarter_full();
-}
-
 Customer* hashTable::Search(int key)
 {
     Node<Customer*>* node = array[hashFunction(key)].search(key);
-    if(node->content == nullptr)
+    if (node->content == nullptr)
     {
         delete node;
         return nullptr;

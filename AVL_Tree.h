@@ -13,7 +13,9 @@ class AVL_Tree {
     T* root;
 public:
     AVL_Tree<T>():numOfNodes(0),root(nullptr){};
-    ~AVL_Tree()=default;
+    ~AVL_Tree(){
+        deleteTree(getRoot());
+    };
     AVL_Tree(AVL_Tree& avlTree)=default;
     T* getRoot(){return this->root;};
     void changeRoot(T* ptr){root = ptr;}
@@ -51,9 +53,8 @@ void deleteTree(T* ptr){
     }
     deleteTree(ptr->leftSon);
     deleteTree(ptr->rightSon);
-    ptr->content = nullptr;
+    delete ptr->content;
     delete[] ptr;
-    ptr = nullptr;
 }
 
 template<class T>

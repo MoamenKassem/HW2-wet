@@ -35,7 +35,6 @@ public:
     Node& operator=(const Node& other)= default;
 };
 
-
 template<class T>
 void Node<T>::addLeftSon(Node<T>* son)
 {

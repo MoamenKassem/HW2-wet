@@ -4,24 +4,25 @@
 #include "recordsCompany.h"
 #include "reversedTree.h"
 
-RecordsCompany::RecordsCompany(): Members(),customersHash(), recordsTree(){
-    reversedTree *temp = new reversedTree(10);
-    recordsTree = temp;
-}
+RecordsCompany::RecordsCompany(): Members(),customersHash(), recordsTree(){}
 
 RecordsCompany::~RecordsCompany()
 {
-    deleteTree(Members.getRoot());
+    delete recordsTree;
 }
+
 StatusType RecordsCompany::newMonth(int *records_stocks, int number_of_records)
 {
     if(number_of_records < 0)
         return StatusType::INVALID_INPUT;
-    //reversedTree *recordsTree = new reversedTree(number_of_records);
     recordsTree = new reversedTree(number_of_records);
+    if(recordsTree == nullptr)
+        throw StatusType::ALLOCATION_ERROR;
     recordsTree->initialize(number_of_records);
     for (int i = 0; i < number_of_records ; ++i) {
         Record *record = new Record(i,records_stocks[i]);
+        if(record == nullptr)
+            throw StatusType::ALLOCATION_ERROR;
         recordsTree->makeset(i,record);
     }
     Members.preOrderPathReset(Members.getRoot());
@@ -36,7 +37,10 @@ StatusType RecordsCompany::addCostumer(int c_id, int phone)
     if(c_id < 0 || phone < 0)
         return StatusType::INVALID_INPUT;
     Customer *customer = new Customer (c_id,phone);
-    return customersHash.Insert(customer);
+    StatusType status = customersHash.Insert(customer);
+    if(status == ALREADY_EXISTS)
+        delete customer;
+    return status;
 }
 
 Output_t<int> RecordsCompany::getPhone(int c_id)
@@ -62,7 +66,9 @@ StatusType RecordsCompany::makeMember(int c_id)
     VipCustomer->setMembership(true);
     VipCustomer->accumulatedAmountInc(-VipCustomer->getAccumulatedAmount());
     Node<Customer*>* node = new Node<Customer*>(c_id,VipCustomer, nullptr);
-    Members.searchAndAdd(node);
+    StatusType status = Members.searchAndAdd(node);
+    if(status == ALREADY_EXISTS)
+        delete node;
     return StatusType::SUCCESS;
 }
 
@@ -108,7 +114,11 @@ Output_t<double> RecordsCompany::getExpenses(int c_id)
         return StatusType::INVALID_INPUT;
     Node<Customer*>* member = Members.search(c_id);
     if(member->content == nullptr)
+    {
+        delete member;
         return StatusType::DOESNT_EXISTS;
+    }
+
     double discount = Members.calcExtra(c_id);
     return member->content->getAccumulatedAmount()-discount;
 }
